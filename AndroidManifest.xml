@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.topwise.emv"
+    android:versionCode="1"
+    android:versionName="1.1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.CLOUDPOS_PRINTER" /> <!-- 2、访问密码键盘权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_PINPAD" /> <!-- 3、密码键盘计算Pinblock权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_PINPAD_PIN_BLOCK" /> <!-- 4、密码键盘计算Mac权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_PINPAD_PIN_MAC" /> <!-- 5、密码键盘加密数据权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_PINPAD_ENCRYPT_DATA" /> <!-- 6、密码键盘更新终端主密钥权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_PINPAD_UPDATE_MKEY" /> <!-- 7、密码键盘更新⼯作密钥权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_PINPAD_UPDATE_WKEY" /> <!-- 8、访问接触式IC卡读卡设备权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_ICCARD" /> <!-- 9、访问EMV权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_EMVL2" /> <!-- 10、访问⾮接触IC卡读卡设备权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_RFCARD" /> <!-- 11、访问磁条卡读卡器设备权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_MAGCARD" /> <!-- 12、获取磁道明⽂接⼜权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_MAGCARD_GETTRACKDATA" /> <!-- 13、获取磁道密⽂数据接⼜权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_MAGCARD_GETENCRYPTTRACKDATA" /> <!-- 14、访问PSAM卡设备权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_PSAMCARD" /> <!-- 15、访问串⼜设备权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_SERIALPORT" /> <!-- 16、访问系统设备权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_SYSTEMDEV" /> <!-- 17、设置系统时钟权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_SYSTEMDEV_ALARM" /> <!-- 18、访问静默安装权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_SYSTEMDEV_INSTALL" /> <!-- 19、更新终端OS、驱动权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_SYSTEMDEV_OS_UPDATE" /> <!-- 20、ShellMonitor权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_SHELLMONITORDEV" /> <!-- 21、接触式CPUCard读卡设备权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_CPUCARD" /> <!-- 22、收银机设备权限 -->
+    <uses-permission android:name="android.permission.CLOUDPOS_CASHER" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 在SDCard中创建与删除文件权限 -->
+    <permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <!-- <application -->
+    <!-- android:name="com.topwise.emv.MyApplication" -->
+    <!-- android:allowBackup="true" -->
+    <!-- android:icon="@mipmap/ic_launcher" -->
+    <!-- android:label="@string/app_name" -->
+    <!-- android:roundIcon="@mipmap/ic_launcher_round" -->
+    <!-- android:supportsRtl="true" -->
+    <!-- android:theme="@style/AppTheme"> -->
+    <!-- <activity android:name="com.topwise.emv.MainActivity"> -->
+    <!-- <intent-filter> -->
+    <!-- <action android:name="android.intent.action.MAIN" /> -->
+    <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+    <!-- </intent-filter> -->
+    <!-- </activity> -->
+    <!-- <activity android:name="com.topwise.emv.PinpadActivity"></activity> -->
+    <!-- </application> -->
+    <application />
+
+</manifest>

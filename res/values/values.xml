@@ -1,0 +1,2189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <array name="waveSideBarLetters">
+        <item>\u0023</item>
+        <item>\u2606</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </array>
+    <attr format="reference" name="SpinKitViewStyle"/>
+    <attr format="reference" name="abstractWheelViewStyle"/>
+    <attr format="color" name="divider_color"/>
+    <attr format="dimension" name="divider_padding"/>
+    <attr format="dimension" name="divider_width"/>
+    <attr format="integer" name="indicator_anim_duration"/>
+    <attr format="boolean" name="indicator_anim_enable"/>
+    <attr format="boolean" name="indicator_bounce_enable"/>
+    <attr format="color" name="indicator_color"/>
+    <attr format="dimension" name="indicator_corner_radius"/>
+    <attr format="enum" name="indicator_gravity">
+        <enum name="TOP" value="48"/>
+        <enum name="BOTTOM" value="80"/>
+    </attr>
+    <attr format="dimension" name="indicator_height"/>
+    <attr format="dimension" name="indicator_margin_bottom"/>
+    <attr format="dimension" name="indicator_margin_left"/>
+    <attr format="dimension" name="indicator_margin_right"/>
+    <attr format="dimension" name="indicator_margin_top"/>
+    <attr format="enum" name="indicator_style">
+        <enum name="NORMAL" value="0"/>
+        <enum name="TRIANGLE" value="1"/>
+        <enum name="BLOCK" value="2"/>
+    </attr>
+    <attr format="dimension" name="indicator_width"/>
+    <attr format="boolean" name="indicator_width_equal_title"/>
+    <attr format="dimension" name="tab_padding"/>
+    <attr format="boolean" name="tab_space_equal"/>
+    <attr format="dimension" name="tab_width"/>
+    <attr format="boolean" name="textAllCaps"/>
+    <attr format="enum" name="textBold">
+        <enum name="NONE" value="0"/>
+        <enum name="SELECT" value="1"/>
+        <enum name="BOTH" value="2"/>
+    </attr>
+    <attr format="color" name="textSelectColor"/>
+    <attr format="color" name="textUnSelectColor"/>
+    <attr format="dimension" name="titlesize"/>
+    <attr format="color" name="underline_color"/>
+    <attr format="enum" name="underline_gravity">
+        <enum name="TOP" value="48"/>
+        <enum name="BOTTOM" value="80"/>
+    </attr>
+    <attr format="dimension" name="underline_height"/>
+    <color name="A5">#A5A5A5</color>
+    <color name="A9">#A9A9A9</color>
+    <color name="B4">#B4B4B4</color>
+    <color name="BD">#BDBDBD</color>
+    <color name="Black">#FF000000</color>
+    <color name="C">#CCCCCC</color>
+    <color name="D7">#D7D7D7</color>
+    <color name="E">#EEEEEE</color>
+    <color name="E8">#E8E8E8</color>
+    <color name="EF">#EFEFEF</color>
+    <color name="F0">#F0F0F0</color>
+    <color name="F6">#F6F6F6</color>
+    <color name="Gray30">#303030</color>
+    <color name="Gray38">#fd383838</color>
+    <color name="Gray4">#444</color>
+    <color name="Gray5F">#5f5f5f</color>
+    <color name="Gray6">#666</color>
+    <color name="Gray7F">#7f7f7f</color>
+    <color name="Gray8">#888</color>
+    <color name="Gray80_25">#25808080</color>
+    <color name="Gray80_80">#80808080</color>
+    <color name="Gray8C">#8C8C8C</color>
+    <color name="Gray9">#999</color>
+    <color name="GrayDeep">#AFAEAE</color>
+    <color name="GrayDeep1">#636262</color>
+    <color name="GrayE7">#E7E4E4</color>
+    <color name="TransBlank_5">#55000000</color>
+    <color name="TransBlank_9">#99000000</color>
+    <color name="TransColor">#00000000</color>
+    <color name="WARNING_COLOR">#FFA900</color>
+    <color name="White">#FFFFFFFF</color>
+    <color name="White66">#66FFFFFF</color>
+    <color name="aliceblue">#F0F8FF</color>
+    <color name="antiquewhite">#FAEBD7</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="aquamarine">#7FFFD4</color>
+    <color name="azure">#F0FFFF</color>
+    <color name="background_content">#ff454344</color>
+    <color name="background_dark">#ff363636</color>
+    <color name="beige">#F5F5DC</color>
+    <color name="bisque">#FFE4C4</color>
+    <color name="black">#FF000000</color>
+    <color name="blanchedalmond">#FFEBCD</color>
+    <color name="blue">#3F51B5</color>
+    <color name="blue1">#0000FF</color>
+    <color name="blue_2196F3">#2196F3</color>
+    <color name="blue_baby">#89CFF0</color>
+    <color name="blue_dark_03">#000333</color>
+    <color name="blue_light_steel">#B0C4DE</color>
+    <color name="blue_powder">#B0E0E6</color>
+    <color name="blue_shadow_50">#503F51B5</color>
+    <color name="blue_shadow_80">#803F51B5</color>
+    <color name="blueviolet">#8A2BE2</color>
+    <color name="brown">#7a583e</color>
+    <color name="brown1">#766156</color>
+    <color name="brown2">#b19282</color>
+    <color name="brown3">#eac1ac</color>
+    <color name="burlywood">#DEB887</color>
+    <color name="cadetblue">#5F9EA0</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="chocolate">#D2691E</color>
+    <color name="circle">#aa2196F3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="coral">#FF7F50</color>
+    <color name="cornflowerblue">#6495ED</color>
+    <color name="cornsilk">#FFF8DC</color>
+    <color name="crimson">#DC143C</color>
+    <color name="custom_progress_background">#DACFD4</color>
+    <color name="custom_progress_blue_header">#ff33b5e5</color>
+    <color name="custom_progress_blue_progress">#ff0099cc</color>
+    <color name="custom_progress_blue_progress_half">#7f0099cc</color>
+    <color name="custom_progress_green_header">#ff99cc00</color>
+    <color name="custom_progress_green_progress">#ff669900</color>
+    <color name="custom_progress_green_progress_half">#7f669900</color>
+    <color name="custom_progress_orange_header">#ffffbb33</color>
+    <color name="custom_progress_orange_progress">#ffff8800</color>
+    <color name="custom_progress_orange_progress_half">#7fff8800</color>
+    <color name="custom_progress_purple_header">#ffaa66cc</color>
+    <color name="custom_progress_purple_progress">#ff9933cc</color>
+    <color name="custom_progress_purple_progress_half">#7f9933cc</color>
+    <color name="custom_progress_red_header">#ffcc0000</color>
+    <color name="custom_progress_red_progress">#ffff4444</color>
+    <color name="custom_progress_red_progress_half">#7fff4444</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="darkblue">#00008B</color>
+    <color name="darkcyan">#008B8B</color>
+    <color name="darkgoldenrod">#B8860B</color>
+    <color name="darkgreen">#006400</color>
+    <color name="darkkhaki">#BDB76B</color>
+    <color name="darkmagenta">#8B008B</color>
+    <color name="darkolivegreen">#556B2F</color>
+    <color name="darkorange">#FF8C00</color>
+    <color name="darkorchid">#9932CC</color>
+    <color name="darkred">#8B0000</color>
+    <color name="darksalmon">#E9967A</color>
+    <color name="darkseagreen">#8FBC8F</color>
+    <color name="darkslateblue">#483D8B</color>
+    <color name="darkslategrey">#2F4F4F</color>
+    <color name="darkturquoise">#00CED1</color>
+    <color name="darkviolet">#9400D3</color>
+    <color name="deepskyblue">#00BFFF</color>
+    <color name="dimgray">#696969</color>
+    <color name="dimgrey">#696969</color>
+    <color name="dodgerblue">#1E90FF</color>
+    <color name="firebrick">#B22222</color>
+    <color name="floralwhite">#FFFAF0</color>
+    <color name="forestgreen">#228B22</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="ghostwhite">#F8F8FF</color>
+    <color name="gold">#FFD700</color>
+    <color name="goldenrod">#DAA520</color>
+    <color name="gray">#808080</color>
+    <color name="green">#008000</color>
+    <color name="green_388e3c">#388E3C</color>
+    <color name="green_xiaomi">#52BA97</color>
+    <color name="greenyellow">#ADFF2F</color>
+    <color name="honeydew">#F0FFF0</color>
+    <color name="indianred">#CD5C5C</color>
+    <color name="indigo">#4B0082</color>
+    <color name="khaki">#F0E68C</color>
+    <color name="largeCircleColor">#FFAF3854</color>
+    <color name="lavender">#E6E6FA</color>
+    <color name="lavenderblush">#FFF0F5</color>
+    <color name="lawngreen">#7CFC00</color>
+    <color name="lemonchiffon">#FFFACD</color>
+    <color name="lightblue">#ADD8E6</color>
+    <color name="lightcoral">#F08080</color>
+    <color name="lightcyan">#E0FFFF</color>
+    <color name="lightgoldenrodyellow">#FAFAD2</color>
+    <color name="lightgray">#D3D3D3</color>
+    <color name="lightgreen">#90EE90</color>
+    <color name="lightgrey">#D3D3D3</color>
+    <color name="lightsalmon">#FFA07A</color>
+    <color name="lightseagreen">#20B2AA</color>
+    <color name="lightskyblue">#87CEFA</color>
+    <color name="lightslategray">#778899</color>
+    <color name="lightslategrey">#778899</color>
+    <color name="lightyellow">#FFFFE0</color>
+    <color name="lime">#00FF00</color>
+    <color name="limegreen">#32CD32</color>
+    <color name="linen">#FAF0E6</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="maroon">#800000</color>
+    <color name="mediumaquamarine">#66CDAA</color>
+    <color name="mediumblue">#0000CD</color>
+    <color name="mediumorchid">#BA55D3</color>
+    <color name="mediumpurple">#9370DB</color>
+    <color name="mediumseagreen">#3CB371</color>
+    <color name="mediumslateblue">#7B68EE</color>
+    <color name="mediumspringgreen">#00FA9A</color>
+    <color name="mediumturquoise">#48D1CC</color>
+    <color name="mediumvioletred">#C71585</color>
+    <color name="midnightblue">#191970</color>
+    <color name="mintcream">#F5FFFA</color>
+    <color name="mistyrose">#FFE4E1</color>
+    <color name="moccasin">#FFE4B5</color>
+    <color name="navajowhite">#FFDEAD</color>
+    <color name="navy">#000080</color>
+    <color name="oldlace">#FDF5E6</color>
+    <color name="olive">#808000</color>
+    <color name="olivedrab">#6B8E23</color>
+    <color name="orange">#f8b62d</color>
+    <color name="orange1">#FFA500</color>
+    <color name="orangered">#FF4500</color>
+    <color name="orchid">#DA70D6</color>
+    <color name="outerCircleColor">#FF533456</color>
+    <color name="palegoldenrod">#EEE8AA</color>
+    <color name="palegreen">#98FB98</color>
+    <color name="paleturquoise">#AFEEEE</color>
+    <color name="palevioletred">#DB7093</color>
+    <color name="papayawhip">#FFEFD5</color>
+    <color name="peachpuff">#FFDAB9</color>
+    <color name="peru">#CD853F</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="pink_50">#50FD4C5B</color>
+    <color name="pink_acfun">#FD4C5B</color>
+    <color name="pink_deep">#FF1493</color>
+    <color name="pink_hot">#FF69B4</color>
+    <color name="pink_light">#FFB6C1</color>
+    <color name="plum">#DDA0DD</color>
+    <color name="purple">#800080</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="rect">#aae84e40</color>
+    <color name="red">#ff0006</color>
+    <color name="red1">#FF0000</color>
+    <color name="redbrown">#A52A2A</color>
+    <color name="rosybrown">#BC8F8F</color>
+    <color name="royalblue">#4169E1</color>
+    <color name="saddlebrown">#8B4513</color>
+    <color name="salmon">#FA8072</color>
+    <color name="sandybrown">#F4A460</color>
+    <color name="seagreen">#2E8B57</color>
+    <color name="seashell">#FFF5EE</color>
+    <color name="sienna">#A0522D</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="skyblue">#87CEEB</color>
+    <color name="slateblue">#6A5ACD</color>
+    <color name="slategray">#708090</color>
+    <color name="slategrey">#708090</color>
+    <color name="smallCircleColor">#FFDF8D81</color>
+    <color name="snow">#FFFAFA</color>
+    <color name="springgreen">#00FF7F</color>
+    <color name="steelblue">#4682B4</color>
+    <color name="stpi_default_circle_color">#b3bdc2</color>
+    <color name="stpi_default_line_color">#b3bdc2</color>
+    <color name="stpi_default_primary_color">#00b47c</color>
+    <color name="stpi_default_text_color">#000</color>
+    <color name="tan">#D2B48C</color>
+    <color name="teal">#008080</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="thistle">#D8BFD8</color>
+    <color name="tomato">#FF6347</color>
+    <color name="triangle">#aa52BA97</color>
+    <color name="turquoise">#40E0D0</color>
+    <color name="violet">#EE82EE</color>
+    <color name="wheat">#F5DEB3</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="whiteIvory">#FFFFF0</color>
+    <color name="whitesmoke">#F5F5F5</color>
+    <color name="yellow">#e6ff00</color>
+    <color name="yellow1">#FFFF00</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="ball_radius_sidebar">24dp</dimen>
+    <dimen name="circular_cornerflag_width">24dp</dimen>
+    <dimen name="default_padding_side">24dp</dimen>
+    <dimen name="default_preview_height">40dp</dimen>
+    <dimen name="default_preview_image_height">36dp</dimen>
+    <dimen name="default_slider_bar_height">4dp</dimen>
+    <dimen name="default_slider_handler_radius">10dp</dimen>
+    <dimen name="default_slider_height">36dp</dimen>
+    <dimen name="default_slider_margin">24dp</dimen>
+    <dimen name="default_slider_margin_btw_title">20dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_1000">1000dp</dimen>
+    <dimen name="dp_101">101dp</dimen>
+    <dimen name="dp_102">102dp</dimen>
+    <dimen name="dp_103">103dp</dimen>
+    <dimen name="dp_104">104dp</dimen>
+    <dimen name="dp_105">105dp</dimen>
+    <dimen name="dp_106">106dp</dimen>
+    <dimen name="dp_107">107dp</dimen>
+    <dimen name="dp_108">108dp</dimen>
+    <dimen name="dp_109">109dp</dimen>
+    <dimen name="dp_11">11dp</dimen>
+    <dimen name="dp_110">110dp</dimen>
+    <dimen name="dp_111">111dp</dimen>
+    <dimen name="dp_112">112dp</dimen>
+    <dimen name="dp_113">113dp</dimen>
+    <dimen name="dp_114">114dp</dimen>
+    <dimen name="dp_115">115dp</dimen>
+    <dimen name="dp_116">116dp</dimen>
+    <dimen name="dp_117">117dp</dimen>
+    <dimen name="dp_118">118dp</dimen>
+    <dimen name="dp_119">119dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_120">120dp</dimen>
+    <dimen name="dp_121">121dp</dimen>
+    <dimen name="dp_122">122dp</dimen>
+    <dimen name="dp_123">123dp</dimen>
+    <dimen name="dp_124">124dp</dimen>
+    <dimen name="dp_125">125dp</dimen>
+    <dimen name="dp_126">126dp</dimen>
+    <dimen name="dp_127">127dp</dimen>
+    <dimen name="dp_128">128dp</dimen>
+    <dimen name="dp_129">129dp</dimen>
+    <dimen name="dp_13">13dp</dimen>
+    <dimen name="dp_130">130dp</dimen>
+    <dimen name="dp_131">131dp</dimen>
+    <dimen name="dp_132">132dp</dimen>
+    <dimen name="dp_133">133dp</dimen>
+    <dimen name="dp_134">134dp</dimen>
+    <dimen name="dp_135">135dp</dimen>
+    <dimen name="dp_136">136dp</dimen>
+    <dimen name="dp_137">137dp</dimen>
+    <dimen name="dp_138">138dp</dimen>
+    <dimen name="dp_139">139dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_140">140dp</dimen>
+    <dimen name="dp_141">141dp</dimen>
+    <dimen name="dp_142">142dp</dimen>
+    <dimen name="dp_143">143dp</dimen>
+    <dimen name="dp_144">144dp</dimen>
+    <dimen name="dp_145">145dp</dimen>
+    <dimen name="dp_146">146dp</dimen>
+    <dimen name="dp_147">147dp</dimen>
+    <dimen name="dp_148">148dp</dimen>
+    <dimen name="dp_149">149dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_150">150dp</dimen>
+    <dimen name="dp_151">151dp</dimen>
+    <dimen name="dp_152">152dp</dimen>
+    <dimen name="dp_153">153dp</dimen>
+    <dimen name="dp_154">154dp</dimen>
+    <dimen name="dp_155">155dp</dimen>
+    <dimen name="dp_156">156dp</dimen>
+    <dimen name="dp_157">157dp</dimen>
+    <dimen name="dp_158">158dp</dimen>
+    <dimen name="dp_159">159dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_160">160dp</dimen>
+    <dimen name="dp_161">161dp</dimen>
+    <dimen name="dp_162">162dp</dimen>
+    <dimen name="dp_163">163dp</dimen>
+    <dimen name="dp_164">164dp</dimen>
+    <dimen name="dp_165">165dp</dimen>
+    <dimen name="dp_166">166dp</dimen>
+    <dimen name="dp_167">167dp</dimen>
+    <dimen name="dp_168">168dp</dimen>
+    <dimen name="dp_169">169dp</dimen>
+    <dimen name="dp_17">17dp</dimen>
+    <dimen name="dp_170">170dp</dimen>
+    <dimen name="dp_171">171dp</dimen>
+    <dimen name="dp_172">172dp</dimen>
+    <dimen name="dp_173">173dp</dimen>
+    <dimen name="dp_174">174dp</dimen>
+    <dimen name="dp_175">175dp</dimen>
+    <dimen name="dp_176">176dp</dimen>
+    <dimen name="dp_177">177dp</dimen>
+    <dimen name="dp_178">178dp</dimen>
+    <dimen name="dp_179">179dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_180">180dp</dimen>
+    <dimen name="dp_181">181dp</dimen>
+    <dimen name="dp_182">182dp</dimen>
+    <dimen name="dp_183">183dp</dimen>
+    <dimen name="dp_184">188dp</dimen>
+    <dimen name="dp_185">185dp</dimen>
+    <dimen name="dp_186">186dp</dimen>
+    <dimen name="dp_187">187dp</dimen>
+    <dimen name="dp_188">188dp</dimen>
+    <dimen name="dp_189">189dp</dimen>
+    <dimen name="dp_19">19dp</dimen>
+    <dimen name="dp_190">190dp</dimen>
+    <dimen name="dp_191">191dp</dimen>
+    <dimen name="dp_192">192dp</dimen>
+    <dimen name="dp_193">193dp</dimen>
+    <dimen name="dp_194">194dp</dimen>
+    <dimen name="dp_195">195dp</dimen>
+    <dimen name="dp_196">196dp</dimen>
+    <dimen name="dp_197">197dp</dimen>
+    <dimen name="dp_198">198dp</dimen>
+    <dimen name="dp_199">199dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_201">201dp</dimen>
+    <dimen name="dp_202">202dp</dimen>
+    <dimen name="dp_203">203dp</dimen>
+    <dimen name="dp_204">204dp</dimen>
+    <dimen name="dp_205">205dp</dimen>
+    <dimen name="dp_206">206dp</dimen>
+    <dimen name="dp_207">207dp</dimen>
+    <dimen name="dp_208">208dp</dimen>
+    <dimen name="dp_209">209dp</dimen>
+    <dimen name="dp_21">21dp</dimen>
+    <dimen name="dp_210">210dp</dimen>
+    <dimen name="dp_211">211dp</dimen>
+    <dimen name="dp_212">212dp</dimen>
+    <dimen name="dp_213">213dp</dimen>
+    <dimen name="dp_214">214dp</dimen>
+    <dimen name="dp_215">215dp</dimen>
+    <dimen name="dp_216">216dp</dimen>
+    <dimen name="dp_217">217dp</dimen>
+    <dimen name="dp_218">218dp</dimen>
+    <dimen name="dp_219">219dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_220">220dp</dimen>
+    <dimen name="dp_221">221dp</dimen>
+    <dimen name="dp_222">222dp</dimen>
+    <dimen name="dp_223">223dp</dimen>
+    <dimen name="dp_224">224dp</dimen>
+    <dimen name="dp_225">225dp</dimen>
+    <dimen name="dp_226">226dp</dimen>
+    <dimen name="dp_227">227dp</dimen>
+    <dimen name="dp_228">228dp</dimen>
+    <dimen name="dp_229">229dp</dimen>
+    <dimen name="dp_23">23dp</dimen>
+    <dimen name="dp_230">230dp</dimen>
+    <dimen name="dp_231">231dp</dimen>
+    <dimen name="dp_232">232dp</dimen>
+    <dimen name="dp_233">233dp</dimen>
+    <dimen name="dp_234">234dp</dimen>
+    <dimen name="dp_235">235dp</dimen>
+    <dimen name="dp_236">236dp</dimen>
+    <dimen name="dp_237">237dp</dimen>
+    <dimen name="dp_238">238dp</dimen>
+    <dimen name="dp_239">239dp</dimen>
+    <dimen name="dp_24">24dp</dimen>
+    <dimen name="dp_240">240dp</dimen>
+    <dimen name="dp_241">241dp</dimen>
+    <dimen name="dp_242">242dp</dimen>
+    <dimen name="dp_243">243dp</dimen>
+    <dimen name="dp_244">244dp</dimen>
+    <dimen name="dp_245">245dp</dimen>
+    <dimen name="dp_246">246dp</dimen>
+    <dimen name="dp_247">247dp</dimen>
+    <dimen name="dp_248">248dp</dimen>
+    <dimen name="dp_249">249dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_250">250dp</dimen>
+    <dimen name="dp_251">251dp</dimen>
+    <dimen name="dp_252">252dp</dimen>
+    <dimen name="dp_253">253dp</dimen>
+    <dimen name="dp_254">254dp</dimen>
+    <dimen name="dp_255">255dp</dimen>
+    <dimen name="dp_256">256dp</dimen>
+    <dimen name="dp_257">257dp</dimen>
+    <dimen name="dp_258">258dp</dimen>
+    <dimen name="dp_259">259dp</dimen>
+    <dimen name="dp_26">26dp</dimen>
+    <dimen name="dp_260">260dp</dimen>
+    <dimen name="dp_261">261dp</dimen>
+    <dimen name="dp_262">262dp</dimen>
+    <dimen name="dp_263">263dp</dimen>
+    <dimen name="dp_264">264dp</dimen>
+    <dimen name="dp_265">265dp</dimen>
+    <dimen name="dp_266">266dp</dimen>
+    <dimen name="dp_267">267dp</dimen>
+    <dimen name="dp_268">268dp</dimen>
+    <dimen name="dp_269">269dp</dimen>
+    <dimen name="dp_27">27dp</dimen>
+    <dimen name="dp_270">270dp</dimen>
+    <dimen name="dp_271">271dp</dimen>
+    <dimen name="dp_272">272dp</dimen>
+    <dimen name="dp_273">273dp</dimen>
+    <dimen name="dp_274">274dp</dimen>
+    <dimen name="dp_275">275dp</dimen>
+    <dimen name="dp_276">276dp</dimen>
+    <dimen name="dp_277">277dp</dimen>
+    <dimen name="dp_278">278dp</dimen>
+    <dimen name="dp_279">279dp</dimen>
+    <dimen name="dp_28">28dp</dimen>
+    <dimen name="dp_280">280dp</dimen>
+    <dimen name="dp_281">281dp</dimen>
+    <dimen name="dp_282">282dp</dimen>
+    <dimen name="dp_283">283dp</dimen>
+    <dimen name="dp_284">288dp</dimen>
+    <dimen name="dp_285">285dp</dimen>
+    <dimen name="dp_286">286dp</dimen>
+    <dimen name="dp_287">287dp</dimen>
+    <dimen name="dp_288">288dp</dimen>
+    <dimen name="dp_289">289dp</dimen>
+    <dimen name="dp_29">29dp</dimen>
+    <dimen name="dp_290">290dp</dimen>
+    <dimen name="dp_291">291dp</dimen>
+    <dimen name="dp_292">292dp</dimen>
+    <dimen name="dp_293">293dp</dimen>
+    <dimen name="dp_294">294dp</dimen>
+    <dimen name="dp_295">295dp</dimen>
+    <dimen name="dp_296">296dp</dimen>
+    <dimen name="dp_297">297dp</dimen>
+    <dimen name="dp_298">298dp</dimen>
+    <dimen name="dp_299">299dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_300">300dp</dimen>
+    <dimen name="dp_301">301dp</dimen>
+    <dimen name="dp_302">302dp</dimen>
+    <dimen name="dp_303">303dp</dimen>
+    <dimen name="dp_304">304dp</dimen>
+    <dimen name="dp_305">305dp</dimen>
+    <dimen name="dp_306">306dp</dimen>
+    <dimen name="dp_307">307dp</dimen>
+    <dimen name="dp_308">308dp</dimen>
+    <dimen name="dp_309">309dp</dimen>
+    <dimen name="dp_31">31dp</dimen>
+    <dimen name="dp_310">310dp</dimen>
+    <dimen name="dp_311">311dp</dimen>
+    <dimen name="dp_312">312dp</dimen>
+    <dimen name="dp_313">313dp</dimen>
+    <dimen name="dp_314">314dp</dimen>
+    <dimen name="dp_315">315dp</dimen>
+    <dimen name="dp_316">316dp</dimen>
+    <dimen name="dp_317">317dp</dimen>
+    <dimen name="dp_318">318dp</dimen>
+    <dimen name="dp_319">319dp</dimen>
+    <dimen name="dp_32">32dp</dimen>
+    <dimen name="dp_320">320dp</dimen>
+    <dimen name="dp_321">321dp</dimen>
+    <dimen name="dp_322">322dp</dimen>
+    <dimen name="dp_323">323dp</dimen>
+    <dimen name="dp_324">324dp</dimen>
+    <dimen name="dp_325">325dp</dimen>
+    <dimen name="dp_326">326dp</dimen>
+    <dimen name="dp_327">327dp</dimen>
+    <dimen name="dp_328">328dp</dimen>
+    <dimen name="dp_329">329dp</dimen>
+    <dimen name="dp_33">33dp</dimen>
+    <dimen name="dp_330">330dp</dimen>
+    <dimen name="dp_331">331dp</dimen>
+    <dimen name="dp_332">332dp</dimen>
+    <dimen name="dp_333">333dp</dimen>
+    <dimen name="dp_334">334dp</dimen>
+    <dimen name="dp_335">335dp</dimen>
+    <dimen name="dp_336">336dp</dimen>
+    <dimen name="dp_337">337dp</dimen>
+    <dimen name="dp_338">338dp</dimen>
+    <dimen name="dp_339">339dp</dimen>
+    <dimen name="dp_34">34dp</dimen>
+    <dimen name="dp_340">340dp</dimen>
+    <dimen name="dp_341">341dp</dimen>
+    <dimen name="dp_342">342dp</dimen>
+    <dimen name="dp_343">343dp</dimen>
+    <dimen name="dp_344">344dp</dimen>
+    <dimen name="dp_345">345dp</dimen>
+    <dimen name="dp_346">346dp</dimen>
+    <dimen name="dp_347">347dp</dimen>
+    <dimen name="dp_348">348dp</dimen>
+    <dimen name="dp_349">349dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+    <dimen name="dp_350">350dp</dimen>
+    <dimen name="dp_351">351dp</dimen>
+    <dimen name="dp_352">352dp</dimen>
+    <dimen name="dp_353">353dp</dimen>
+    <dimen name="dp_354">354dp</dimen>
+    <dimen name="dp_355">355dp</dimen>
+    <dimen name="dp_356">356dp</dimen>
+    <dimen name="dp_357">357dp</dimen>
+    <dimen name="dp_358">358dp</dimen>
+    <dimen name="dp_359">359dp</dimen>
+    <dimen name="dp_36">36dp</dimen>
+    <dimen name="dp_360">360dp</dimen>
+    <dimen name="dp_361">361dp</dimen>
+    <dimen name="dp_362">362dp</dimen>
+    <dimen name="dp_363">363dp</dimen>
+    <dimen name="dp_364">364dp</dimen>
+    <dimen name="dp_365">365dp</dimen>
+    <dimen name="dp_366">366dp</dimen>
+    <dimen name="dp_367">367dp</dimen>
+    <dimen name="dp_368">368dp</dimen>
+    <dimen name="dp_369">369dp</dimen>
+    <dimen name="dp_37">37dp</dimen>
+    <dimen name="dp_370">370dp</dimen>
+    <dimen name="dp_371">371dp</dimen>
+    <dimen name="dp_372">372dp</dimen>
+    <dimen name="dp_373">373dp</dimen>
+    <dimen name="dp_374">374dp</dimen>
+    <dimen name="dp_375">375dp</dimen>
+    <dimen name="dp_376">376dp</dimen>
+    <dimen name="dp_377">377dp</dimen>
+    <dimen name="dp_378">378dp</dimen>
+    <dimen name="dp_379">379dp</dimen>
+    <dimen name="dp_38">38dp</dimen>
+    <dimen name="dp_380">380dp</dimen>
+    <dimen name="dp_381">381dp</dimen>
+    <dimen name="dp_382">382dp</dimen>
+    <dimen name="dp_383">383dp</dimen>
+    <dimen name="dp_384">388dp</dimen>
+    <dimen name="dp_385">385dp</dimen>
+    <dimen name="dp_386">386dp</dimen>
+    <dimen name="dp_387">387dp</dimen>
+    <dimen name="dp_388">388dp</dimen>
+    <dimen name="dp_389">389dp</dimen>
+    <dimen name="dp_39">39dp</dimen>
+    <dimen name="dp_390">390dp</dimen>
+    <dimen name="dp_391">391dp</dimen>
+    <dimen name="dp_392">392dp</dimen>
+    <dimen name="dp_393">393dp</dimen>
+    <dimen name="dp_394">394dp</dimen>
+    <dimen name="dp_395">395dp</dimen>
+    <dimen name="dp_396">396dp</dimen>
+    <dimen name="dp_397">397dp</dimen>
+    <dimen name="dp_398">398dp</dimen>
+    <dimen name="dp_399">399dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_400">400dp</dimen>
+    <dimen name="dp_401">401dp</dimen>
+    <dimen name="dp_402">402dp</dimen>
+    <dimen name="dp_403">403dp</dimen>
+    <dimen name="dp_404">404dp</dimen>
+    <dimen name="dp_405">405dp</dimen>
+    <dimen name="dp_406">406dp</dimen>
+    <dimen name="dp_407">407dp</dimen>
+    <dimen name="dp_408">408dp</dimen>
+    <dimen name="dp_409">409dp</dimen>
+    <dimen name="dp_41">41dp</dimen>
+    <dimen name="dp_410">410dp</dimen>
+    <dimen name="dp_411">411dp</dimen>
+    <dimen name="dp_412">412dp</dimen>
+    <dimen name="dp_413">413dp</dimen>
+    <dimen name="dp_414">414dp</dimen>
+    <dimen name="dp_415">415dp</dimen>
+    <dimen name="dp_416">416dp</dimen>
+    <dimen name="dp_417">417dp</dimen>
+    <dimen name="dp_418">418dp</dimen>
+    <dimen name="dp_419">419dp</dimen>
+    <dimen name="dp_42">42dp</dimen>
+    <dimen name="dp_420">420dp</dimen>
+    <dimen name="dp_421">421dp</dimen>
+    <dimen name="dp_422">422dp</dimen>
+    <dimen name="dp_423">423dp</dimen>
+    <dimen name="dp_424">424dp</dimen>
+    <dimen name="dp_425">425dp</dimen>
+    <dimen name="dp_426">426dp</dimen>
+    <dimen name="dp_427">427dp</dimen>
+    <dimen name="dp_428">428dp</dimen>
+    <dimen name="dp_429">429dp</dimen>
+    <dimen name="dp_43">43dp</dimen>
+    <dimen name="dp_430">430dp</dimen>
+    <dimen name="dp_431">431dp</dimen>
+    <dimen name="dp_432">432dp</dimen>
+    <dimen name="dp_433">433dp</dimen>
+    <dimen name="dp_434">434dp</dimen>
+    <dimen name="dp_435">435dp</dimen>
+    <dimen name="dp_436">436dp</dimen>
+    <dimen name="dp_437">437dp</dimen>
+    <dimen name="dp_438">438dp</dimen>
+    <dimen name="dp_439">439dp</dimen>
+    <dimen name="dp_44">44dp</dimen>
+    <dimen name="dp_440">440dp</dimen>
+    <dimen name="dp_441">441dp</dimen>
+    <dimen name="dp_442">442dp</dimen>
+    <dimen name="dp_443">443dp</dimen>
+    <dimen name="dp_444">444dp</dimen>
+    <dimen name="dp_445">445dp</dimen>
+    <dimen name="dp_446">446dp</dimen>
+    <dimen name="dp_447">447dp</dimen>
+    <dimen name="dp_448">448dp</dimen>
+    <dimen name="dp_449">449dp</dimen>
+    <dimen name="dp_45">45dp</dimen>
+    <dimen name="dp_450">450dp</dimen>
+    <dimen name="dp_451">451dp</dimen>
+    <dimen name="dp_452">452dp</dimen>
+    <dimen name="dp_453">453dp</dimen>
+    <dimen name="dp_454">454dp</dimen>
+    <dimen name="dp_455">455dp</dimen>
+    <dimen name="dp_456">456dp</dimen>
+    <dimen name="dp_457">457dp</dimen>
+    <dimen name="dp_458">458dp</dimen>
+    <dimen name="dp_459">459dp</dimen>
+    <dimen name="dp_46">46dp</dimen>
+    <dimen name="dp_460">460dp</dimen>
+    <dimen name="dp_461">461dp</dimen>
+    <dimen name="dp_462">462dp</dimen>
+    <dimen name="dp_463">463dp</dimen>
+    <dimen name="dp_464">464dp</dimen>
+    <dimen name="dp_465">465dp</dimen>
+    <dimen name="dp_466">466dp</dimen>
+    <dimen name="dp_467">467dp</dimen>
+    <dimen name="dp_468">468dp</dimen>
+    <dimen name="dp_469">469dp</dimen>
+    <dimen name="dp_47">47dp</dimen>
+    <dimen name="dp_470">470dp</dimen>
+    <dimen name="dp_471">471dp</dimen>
+    <dimen name="dp_472">472dp</dimen>
+    <dimen name="dp_473">473dp</dimen>
+    <dimen name="dp_474">474dp</dimen>
+    <dimen name="dp_475">475dp</dimen>
+    <dimen name="dp_476">476dp</dimen>
+    <dimen name="dp_477">477dp</dimen>
+    <dimen name="dp_478">478dp</dimen>
+    <dimen name="dp_479">479dp</dimen>
+    <dimen name="dp_48">48dp</dimen>
+    <dimen name="dp_480">480dp</dimen>
+    <dimen name="dp_481">481dp</dimen>
+    <dimen name="dp_482">482dp</dimen>
+    <dimen name="dp_483">483dp</dimen>
+    <dimen name="dp_484">488dp</dimen>
+    <dimen name="dp_485">485dp</dimen>
+    <dimen name="dp_486">486dp</dimen>
+    <dimen name="dp_487">487dp</dimen>
+    <dimen name="dp_488">488dp</dimen>
+    <dimen name="dp_489">489dp</dimen>
+    <dimen name="dp_49">49dp</dimen>
+    <dimen name="dp_490">490dp</dimen>
+    <dimen name="dp_491">491dp</dimen>
+    <dimen name="dp_492">492dp</dimen>
+    <dimen name="dp_493">493dp</dimen>
+    <dimen name="dp_494">494dp</dimen>
+    <dimen name="dp_495">495dp</dimen>
+    <dimen name="dp_496">496dp</dimen>
+    <dimen name="dp_497">497dp</dimen>
+    <dimen name="dp_498">498dp</dimen>
+    <dimen name="dp_499">499dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_500">500dp</dimen>
+    <dimen name="dp_501">501dp</dimen>
+    <dimen name="dp_502">502dp</dimen>
+    <dimen name="dp_503">503dp</dimen>
+    <dimen name="dp_504">504dp</dimen>
+    <dimen name="dp_505">505dp</dimen>
+    <dimen name="dp_506">506dp</dimen>
+    <dimen name="dp_507">507dp</dimen>
+    <dimen name="dp_508">508dp</dimen>
+    <dimen name="dp_509">509dp</dimen>
+    <dimen name="dp_51">51dp</dimen>
+    <dimen name="dp_510">510dp</dimen>
+    <dimen name="dp_511">511dp</dimen>
+    <dimen name="dp_512">512dp</dimen>
+    <dimen name="dp_513">513dp</dimen>
+    <dimen name="dp_514">514dp</dimen>
+    <dimen name="dp_515">515dp</dimen>
+    <dimen name="dp_516">516dp</dimen>
+    <dimen name="dp_517">517dp</dimen>
+    <dimen name="dp_518">518dp</dimen>
+    <dimen name="dp_519">519dp</dimen>
+    <dimen name="dp_52">52dp</dimen>
+    <dimen name="dp_520">520dp</dimen>
+    <dimen name="dp_521">521dp</dimen>
+    <dimen name="dp_522">522dp</dimen>
+    <dimen name="dp_523">523dp</dimen>
+    <dimen name="dp_524">524dp</dimen>
+    <dimen name="dp_525">525dp</dimen>
+    <dimen name="dp_526">526dp</dimen>
+    <dimen name="dp_527">527dp</dimen>
+    <dimen name="dp_528">528dp</dimen>
+    <dimen name="dp_529">529dp</dimen>
+    <dimen name="dp_53">53dp</dimen>
+    <dimen name="dp_530">530dp</dimen>
+    <dimen name="dp_531">531dp</dimen>
+    <dimen name="dp_532">532dp</dimen>
+    <dimen name="dp_533">533dp</dimen>
+    <dimen name="dp_534">534dp</dimen>
+    <dimen name="dp_535">535dp</dimen>
+    <dimen name="dp_536">536dp</dimen>
+    <dimen name="dp_537">537dp</dimen>
+    <dimen name="dp_538">538dp</dimen>
+    <dimen name="dp_539">539dp</dimen>
+    <dimen name="dp_54">54dp</dimen>
+    <dimen name="dp_540">540dp</dimen>
+    <dimen name="dp_541">541dp</dimen>
+    <dimen name="dp_542">542dp</dimen>
+    <dimen name="dp_543">543dp</dimen>
+    <dimen name="dp_544">544dp</dimen>
+    <dimen name="dp_545">545dp</dimen>
+    <dimen name="dp_546">546dp</dimen>
+    <dimen name="dp_547">547dp</dimen>
+    <dimen name="dp_548">548dp</dimen>
+    <dimen name="dp_549">549dp</dimen>
+    <dimen name="dp_55">55dp</dimen>
+    <dimen name="dp_550">550dp</dimen>
+    <dimen name="dp_551">551dp</dimen>
+    <dimen name="dp_552">552dp</dimen>
+    <dimen name="dp_553">553dp</dimen>
+    <dimen name="dp_554">554dp</dimen>
+    <dimen name="dp_555">555dp</dimen>
+    <dimen name="dp_556">556dp</dimen>
+    <dimen name="dp_557">557dp</dimen>
+    <dimen name="dp_558">558dp</dimen>
+    <dimen name="dp_559">559dp</dimen>
+    <dimen name="dp_56">56dp</dimen>
+    <dimen name="dp_560">560dp</dimen>
+    <dimen name="dp_561">561dp</dimen>
+    <dimen name="dp_562">562dp</dimen>
+    <dimen name="dp_563">563dp</dimen>
+    <dimen name="dp_564">564dp</dimen>
+    <dimen name="dp_565">565dp</dimen>
+    <dimen name="dp_566">566dp</dimen>
+    <dimen name="dp_567">567dp</dimen>
+    <dimen name="dp_568">568dp</dimen>
+    <dimen name="dp_569">569dp</dimen>
+    <dimen name="dp_57">57dp</dimen>
+    <dimen name="dp_570">570dp</dimen>
+    <dimen name="dp_571">571dp</dimen>
+    <dimen name="dp_572">572dp</dimen>
+    <dimen name="dp_573">573dp</dimen>
+    <dimen name="dp_574">574dp</dimen>
+    <dimen name="dp_575">575dp</dimen>
+    <dimen name="dp_576">576dp</dimen>
+    <dimen name="dp_577">577dp</dimen>
+    <dimen name="dp_578">578dp</dimen>
+    <dimen name="dp_579">579dp</dimen>
+    <dimen name="dp_58">58dp</dimen>
+    <dimen name="dp_580">580dp</dimen>
+    <dimen name="dp_581">581dp</dimen>
+    <dimen name="dp_582">582dp</dimen>
+    <dimen name="dp_583">583dp</dimen>
+    <dimen name="dp_584">588dp</dimen>
+    <dimen name="dp_585">585dp</dimen>
+    <dimen name="dp_586">586dp</dimen>
+    <dimen name="dp_587">587dp</dimen>
+    <dimen name="dp_588">588dp</dimen>
+    <dimen name="dp_589">589dp</dimen>
+    <dimen name="dp_59">59dp</dimen>
+    <dimen name="dp_590">590dp</dimen>
+    <dimen name="dp_591">591dp</dimen>
+    <dimen name="dp_592">592dp</dimen>
+    <dimen name="dp_593">593dp</dimen>
+    <dimen name="dp_594">594dp</dimen>
+    <dimen name="dp_595">595dp</dimen>
+    <dimen name="dp_596">596dp</dimen>
+    <dimen name="dp_597">597dp</dimen>
+    <dimen name="dp_598">598dp</dimen>
+    <dimen name="dp_599">599dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_600">600dp</dimen>
+    <dimen name="dp_601">601dp</dimen>
+    <dimen name="dp_602">602dp</dimen>
+    <dimen name="dp_603">603dp</dimen>
+    <dimen name="dp_604">604dp</dimen>
+    <dimen name="dp_605">605dp</dimen>
+    <dimen name="dp_606">606dp</dimen>
+    <dimen name="dp_607">607dp</dimen>
+    <dimen name="dp_608">608dp</dimen>
+    <dimen name="dp_609">609dp</dimen>
+    <dimen name="dp_61">61dp</dimen>
+    <dimen name="dp_610">610dp</dimen>
+    <dimen name="dp_611">611dp</dimen>
+    <dimen name="dp_612">612dp</dimen>
+    <dimen name="dp_613">613dp</dimen>
+    <dimen name="dp_614">614dp</dimen>
+    <dimen name="dp_615">615dp</dimen>
+    <dimen name="dp_616">616dp</dimen>
+    <dimen name="dp_617">617dp</dimen>
+    <dimen name="dp_618">618dp</dimen>
+    <dimen name="dp_619">619dp</dimen>
+    <dimen name="dp_62">62dp</dimen>
+    <dimen name="dp_620">620dp</dimen>
+    <dimen name="dp_621">621dp</dimen>
+    <dimen name="dp_622">622dp</dimen>
+    <dimen name="dp_623">623dp</dimen>
+    <dimen name="dp_624">624dp</dimen>
+    <dimen name="dp_625">625dp</dimen>
+    <dimen name="dp_626">626dp</dimen>
+    <dimen name="dp_627">627dp</dimen>
+    <dimen name="dp_628">628dp</dimen>
+    <dimen name="dp_629">629dp</dimen>
+    <dimen name="dp_63">63dp</dimen>
+    <dimen name="dp_630">630dp</dimen>
+    <dimen name="dp_631">631dp</dimen>
+    <dimen name="dp_632">632dp</dimen>
+    <dimen name="dp_633">633dp</dimen>
+    <dimen name="dp_634">634dp</dimen>
+    <dimen name="dp_635">635dp</dimen>
+    <dimen name="dp_636">636dp</dimen>
+    <dimen name="dp_637">637dp</dimen>
+    <dimen name="dp_638">638dp</dimen>
+    <dimen name="dp_639">639dp</dimen>
+    <dimen name="dp_64">64dp</dimen>
+    <dimen name="dp_640">640dp</dimen>
+    <dimen name="dp_641">641dp</dimen>
+    <dimen name="dp_642">642dp</dimen>
+    <dimen name="dp_643">643dp</dimen>
+    <dimen name="dp_644">644dp</dimen>
+    <dimen name="dp_645">645dp</dimen>
+    <dimen name="dp_646">646dp</dimen>
+    <dimen name="dp_647">647dp</dimen>
+    <dimen name="dp_648">648dp</dimen>
+    <dimen name="dp_649">649dp</dimen>
+    <dimen name="dp_65">65dp</dimen>
+    <dimen name="dp_650">650dp</dimen>
+    <dimen name="dp_651">651dp</dimen>
+    <dimen name="dp_652">652dp</dimen>
+    <dimen name="dp_653">653dp</dimen>
+    <dimen name="dp_654">654dp</dimen>
+    <dimen name="dp_655">655dp</dimen>
+    <dimen name="dp_656">656dp</dimen>
+    <dimen name="dp_657">657dp</dimen>
+    <dimen name="dp_658">658dp</dimen>
+    <dimen name="dp_659">659dp</dimen>
+    <dimen name="dp_66">66dp</dimen>
+    <dimen name="dp_660">660dp</dimen>
+    <dimen name="dp_661">661dp</dimen>
+    <dimen name="dp_662">662dp</dimen>
+    <dimen name="dp_663">663dp</dimen>
+    <dimen name="dp_664">664dp</dimen>
+    <dimen name="dp_665">665dp</dimen>
+    <dimen name="dp_666">666dp</dimen>
+    <dimen name="dp_667">667dp</dimen>
+    <dimen name="dp_668">668dp</dimen>
+    <dimen name="dp_669">669dp</dimen>
+    <dimen name="dp_67">67dp</dimen>
+    <dimen name="dp_670">670dp</dimen>
+    <dimen name="dp_671">671dp</dimen>
+    <dimen name="dp_672">672dp</dimen>
+    <dimen name="dp_673">673dp</dimen>
+    <dimen name="dp_674">674dp</dimen>
+    <dimen name="dp_675">675dp</dimen>
+    <dimen name="dp_676">676dp</dimen>
+    <dimen name="dp_677">677dp</dimen>
+    <dimen name="dp_678">678dp</dimen>
+    <dimen name="dp_679">679dp</dimen>
+    <dimen name="dp_68">68dp</dimen>
+    <dimen name="dp_680">680dp</dimen>
+    <dimen name="dp_681">681dp</dimen>
+    <dimen name="dp_682">682dp</dimen>
+    <dimen name="dp_683">683dp</dimen>
+    <dimen name="dp_684">688dp</dimen>
+    <dimen name="dp_685">685dp</dimen>
+    <dimen name="dp_686">686dp</dimen>
+    <dimen name="dp_687">687dp</dimen>
+    <dimen name="dp_688">688dp</dimen>
+    <dimen name="dp_689">689dp</dimen>
+    <dimen name="dp_69">69dp</dimen>
+    <dimen name="dp_690">690dp</dimen>
+    <dimen name="dp_691">691dp</dimen>
+    <dimen name="dp_692">692dp</dimen>
+    <dimen name="dp_693">693dp</dimen>
+    <dimen name="dp_694">694dp</dimen>
+    <dimen name="dp_695">695dp</dimen>
+    <dimen name="dp_696">696dp</dimen>
+    <dimen name="dp_697">697dp</dimen>
+    <dimen name="dp_698">698dp</dimen>
+    <dimen name="dp_699">699dp</dimen>
+    <dimen name="dp_7">7dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+    <dimen name="dp_700">700dp</dimen>
+    <dimen name="dp_701">701dp</dimen>
+    <dimen name="dp_702">702dp</dimen>
+    <dimen name="dp_703">703dp</dimen>
+    <dimen name="dp_704">704dp</dimen>
+    <dimen name="dp_705">705dp</dimen>
+    <dimen name="dp_706">706dp</dimen>
+    <dimen name="dp_707">707dp</dimen>
+    <dimen name="dp_708">708dp</dimen>
+    <dimen name="dp_709">709dp</dimen>
+    <dimen name="dp_71">71dp</dimen>
+    <dimen name="dp_710">710dp</dimen>
+    <dimen name="dp_711">711dp</dimen>
+    <dimen name="dp_712">712dp</dimen>
+    <dimen name="dp_713">713dp</dimen>
+    <dimen name="dp_714">714dp</dimen>
+    <dimen name="dp_715">715dp</dimen>
+    <dimen name="dp_716">716dp</dimen>
+    <dimen name="dp_717">717dp</dimen>
+    <dimen name="dp_718">718dp</dimen>
+    <dimen name="dp_719">719dp</dimen>
+    <dimen name="dp_72">72dp</dimen>
+    <dimen name="dp_720">720dp</dimen>
+    <dimen name="dp_721">721dp</dimen>
+    <dimen name="dp_722">722dp</dimen>
+    <dimen name="dp_723">723dp</dimen>
+    <dimen name="dp_724">724dp</dimen>
+    <dimen name="dp_725">725dp</dimen>
+    <dimen name="dp_726">726dp</dimen>
+    <dimen name="dp_727">727dp</dimen>
+    <dimen name="dp_728">728dp</dimen>
+    <dimen name="dp_729">729dp</dimen>
+    <dimen name="dp_73">73dp</dimen>
+    <dimen name="dp_730">730dp</dimen>
+    <dimen name="dp_731">731dp</dimen>
+    <dimen name="dp_732">732dp</dimen>
+    <dimen name="dp_733">733dp</dimen>
+    <dimen name="dp_734">734dp</dimen>
+    <dimen name="dp_735">735dp</dimen>
+    <dimen name="dp_736">736dp</dimen>
+    <dimen name="dp_737">737dp</dimen>
+    <dimen name="dp_738">738dp</dimen>
+    <dimen name="dp_739">739dp</dimen>
+    <dimen name="dp_74">74dp</dimen>
+    <dimen name="dp_740">740dp</dimen>
+    <dimen name="dp_741">741dp</dimen>
+    <dimen name="dp_742">742dp</dimen>
+    <dimen name="dp_743">743dp</dimen>
+    <dimen name="dp_744">744dp</dimen>
+    <dimen name="dp_745">745dp</dimen>
+    <dimen name="dp_746">746dp</dimen>
+    <dimen name="dp_747">747dp</dimen>
+    <dimen name="dp_748">748dp</dimen>
+    <dimen name="dp_749">749dp</dimen>
+    <dimen name="dp_75">75dp</dimen>
+    <dimen name="dp_750">750dp</dimen>
+    <dimen name="dp_751">751dp</dimen>
+    <dimen name="dp_752">752dp</dimen>
+    <dimen name="dp_753">753dp</dimen>
+    <dimen name="dp_754">754dp</dimen>
+    <dimen name="dp_755">755dp</dimen>
+    <dimen name="dp_756">756dp</dimen>
+    <dimen name="dp_757">757dp</dimen>
+    <dimen name="dp_758">758dp</dimen>
+    <dimen name="dp_759">759dp</dimen>
+    <dimen name="dp_76">76dp</dimen>
+    <dimen name="dp_760">760dp</dimen>
+    <dimen name="dp_761">761dp</dimen>
+    <dimen name="dp_762">762dp</dimen>
+    <dimen name="dp_763">763dp</dimen>
+    <dimen name="dp_764">764dp</dimen>
+    <dimen name="dp_765">765dp</dimen>
+    <dimen name="dp_766">766dp</dimen>
+    <dimen name="dp_767">767dp</dimen>
+    <dimen name="dp_768">768dp</dimen>
+    <dimen name="dp_769">769dp</dimen>
+    <dimen name="dp_77">77dp</dimen>
+    <dimen name="dp_770">770dp</dimen>
+    <dimen name="dp_771">771dp</dimen>
+    <dimen name="dp_772">772dp</dimen>
+    <dimen name="dp_773">773dp</dimen>
+    <dimen name="dp_774">774dp</dimen>
+    <dimen name="dp_775">775dp</dimen>
+    <dimen name="dp_776">776dp</dimen>
+    <dimen name="dp_777">777dp</dimen>
+    <dimen name="dp_778">778dp</dimen>
+    <dimen name="dp_779">779dp</dimen>
+    <dimen name="dp_78">78dp</dimen>
+    <dimen name="dp_780">780dp</dimen>
+    <dimen name="dp_781">781dp</dimen>
+    <dimen name="dp_782">782dp</dimen>
+    <dimen name="dp_783">783dp</dimen>
+    <dimen name="dp_784">788dp</dimen>
+    <dimen name="dp_785">785dp</dimen>
+    <dimen name="dp_786">786dp</dimen>
+    <dimen name="dp_787">787dp</dimen>
+    <dimen name="dp_788">788dp</dimen>
+    <dimen name="dp_789">789dp</dimen>
+    <dimen name="dp_79">79dp</dimen>
+    <dimen name="dp_790">790dp</dimen>
+    <dimen name="dp_791">791dp</dimen>
+    <dimen name="dp_792">792dp</dimen>
+    <dimen name="dp_793">793dp</dimen>
+    <dimen name="dp_794">794dp</dimen>
+    <dimen name="dp_795">795dp</dimen>
+    <dimen name="dp_796">796dp</dimen>
+    <dimen name="dp_797">797dp</dimen>
+    <dimen name="dp_798">798dp</dimen>
+    <dimen name="dp_799">799dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="dp_800">800dp</dimen>
+    <dimen name="dp_801">801dp</dimen>
+    <dimen name="dp_802">802dp</dimen>
+    <dimen name="dp_803">803dp</dimen>
+    <dimen name="dp_804">804dp</dimen>
+    <dimen name="dp_805">805dp</dimen>
+    <dimen name="dp_806">806dp</dimen>
+    <dimen name="dp_807">807dp</dimen>
+    <dimen name="dp_808">808dp</dimen>
+    <dimen name="dp_809">809dp</dimen>
+    <dimen name="dp_81">81dp</dimen>
+    <dimen name="dp_810">810dp</dimen>
+    <dimen name="dp_811">811dp</dimen>
+    <dimen name="dp_812">812dp</dimen>
+    <dimen name="dp_813">813dp</dimen>
+    <dimen name="dp_814">814dp</dimen>
+    <dimen name="dp_815">815dp</dimen>
+    <dimen name="dp_816">816dp</dimen>
+    <dimen name="dp_817">817dp</dimen>
+    <dimen name="dp_818">818dp</dimen>
+    <dimen name="dp_819">819dp</dimen>
+    <dimen name="dp_82">82dp</dimen>
+    <dimen name="dp_820">820dp</dimen>
+    <dimen name="dp_821">821dp</dimen>
+    <dimen name="dp_822">822dp</dimen>
+    <dimen name="dp_823">823dp</dimen>
+    <dimen name="dp_824">824dp</dimen>
+    <dimen name="dp_825">825dp</dimen>
+    <dimen name="dp_826">826dp</dimen>
+    <dimen name="dp_827">827dp</dimen>
+    <dimen name="dp_828">828dp</dimen>
+    <dimen name="dp_829">829dp</dimen>
+    <dimen name="dp_83">83dp</dimen>
+    <dimen name="dp_830">830dp</dimen>
+    <dimen name="dp_831">831dp</dimen>
+    <dimen name="dp_832">832dp</dimen>
+    <dimen name="dp_833">833dp</dimen>
+    <dimen name="dp_834">834dp</dimen>
+    <dimen name="dp_835">835dp</dimen>
+    <dimen name="dp_836">836dp</dimen>
+    <dimen name="dp_837">837dp</dimen>
+    <dimen name="dp_838">838dp</dimen>
+    <dimen name="dp_839">839dp</dimen>
+    <dimen name="dp_84">88dp</dimen>
+    <dimen name="dp_840">840dp</dimen>
+    <dimen name="dp_841">841dp</dimen>
+    <dimen name="dp_842">842dp</dimen>
+    <dimen name="dp_843">843dp</dimen>
+    <dimen name="dp_844">844dp</dimen>
+    <dimen name="dp_845">845dp</dimen>
+    <dimen name="dp_846">846dp</dimen>
+    <dimen name="dp_847">847dp</dimen>
+    <dimen name="dp_848">848dp</dimen>
+    <dimen name="dp_849">849dp</dimen>
+    <dimen name="dp_85">85dp</dimen>
+    <dimen name="dp_850">850dp</dimen>
+    <dimen name="dp_851">851dp</dimen>
+    <dimen name="dp_852">852dp</dimen>
+    <dimen name="dp_853">853dp</dimen>
+    <dimen name="dp_854">854dp</dimen>
+    <dimen name="dp_855">855dp</dimen>
+    <dimen name="dp_856">856dp</dimen>
+    <dimen name="dp_857">857dp</dimen>
+    <dimen name="dp_858">858dp</dimen>
+    <dimen name="dp_859">859dp</dimen>
+    <dimen name="dp_86">86dp</dimen>
+    <dimen name="dp_860">860dp</dimen>
+    <dimen name="dp_861">861dp</dimen>
+    <dimen name="dp_862">862dp</dimen>
+    <dimen name="dp_863">863dp</dimen>
+    <dimen name="dp_864">864dp</dimen>
+    <dimen name="dp_865">865dp</dimen>
+    <dimen name="dp_866">866dp</dimen>
+    <dimen name="dp_867">867dp</dimen>
+    <dimen name="dp_868">868dp</dimen>
+    <dimen name="dp_869">869dp</dimen>
+    <dimen name="dp_87">87dp</dimen>
+    <dimen name="dp_870">870dp</dimen>
+    <dimen name="dp_871">871dp</dimen>
+    <dimen name="dp_872">872dp</dimen>
+    <dimen name="dp_873">873dp</dimen>
+    <dimen name="dp_874">874dp</dimen>
+    <dimen name="dp_875">875dp</dimen>
+    <dimen name="dp_876">876dp</dimen>
+    <dimen name="dp_877">877dp</dimen>
+    <dimen name="dp_878">878dp</dimen>
+    <dimen name="dp_879">879dp</dimen>
+    <dimen name="dp_88">88dp</dimen>
+    <dimen name="dp_880">880dp</dimen>
+    <dimen name="dp_881">881dp</dimen>
+    <dimen name="dp_882">882dp</dimen>
+    <dimen name="dp_883">883dp</dimen>
+    <dimen name="dp_884">888dp</dimen>
+    <dimen name="dp_885">885dp</dimen>
+    <dimen name="dp_886">886dp</dimen>
+    <dimen name="dp_887">887dp</dimen>
+    <dimen name="dp_888">888dp</dimen>
+    <dimen name="dp_889">889dp</dimen>
+    <dimen name="dp_89">89dp</dimen>
+    <dimen name="dp_890">890dp</dimen>
+    <dimen name="dp_891">891dp</dimen>
+    <dimen name="dp_892">892dp</dimen>
+    <dimen name="dp_893">893dp</dimen>
+    <dimen name="dp_894">894dp</dimen>
+    <dimen name="dp_895">895dp</dimen>
+    <dimen name="dp_896">896dp</dimen>
+    <dimen name="dp_897">897dp</dimen>
+    <dimen name="dp_898">898dp</dimen>
+    <dimen name="dp_899">899dp</dimen>
+    <dimen name="dp_9">9dp</dimen>
+    <dimen name="dp_90">90dp</dimen>
+    <dimen name="dp_900">900dp</dimen>
+    <dimen name="dp_901">901dp</dimen>
+    <dimen name="dp_902">902dp</dimen>
+    <dimen name="dp_903">903dp</dimen>
+    <dimen name="dp_904">904dp</dimen>
+    <dimen name="dp_905">905dp</dimen>
+    <dimen name="dp_906">906dp</dimen>
+    <dimen name="dp_907">907dp</dimen>
+    <dimen name="dp_908">908dp</dimen>
+    <dimen name="dp_909">909dp</dimen>
+    <dimen name="dp_91">91dp</dimen>
+    <dimen name="dp_910">910dp</dimen>
+    <dimen name="dp_911">911dp</dimen>
+    <dimen name="dp_912">912dp</dimen>
+    <dimen name="dp_913">913dp</dimen>
+    <dimen name="dp_914">914dp</dimen>
+    <dimen name="dp_915">915dp</dimen>
+    <dimen name="dp_916">916dp</dimen>
+    <dimen name="dp_917">917dp</dimen>
+    <dimen name="dp_918">918dp</dimen>
+    <dimen name="dp_919">919dp</dimen>
+    <dimen name="dp_92">92dp</dimen>
+    <dimen name="dp_920">920dp</dimen>
+    <dimen name="dp_921">921dp</dimen>
+    <dimen name="dp_922">922dp</dimen>
+    <dimen name="dp_923">923dp</dimen>
+    <dimen name="dp_924">924dp</dimen>
+    <dimen name="dp_925">925dp</dimen>
+    <dimen name="dp_926">926dp</dimen>
+    <dimen name="dp_927">927dp</dimen>
+    <dimen name="dp_928">928dp</dimen>
+    <dimen name="dp_929">929dp</dimen>
+    <dimen name="dp_93">93dp</dimen>
+    <dimen name="dp_930">930dp</dimen>
+    <dimen name="dp_931">931dp</dimen>
+    <dimen name="dp_932">932dp</dimen>
+    <dimen name="dp_933">933dp</dimen>
+    <dimen name="dp_934">934dp</dimen>
+    <dimen name="dp_935">935dp</dimen>
+    <dimen name="dp_936">936dp</dimen>
+    <dimen name="dp_937">937dp</dimen>
+    <dimen name="dp_938">938dp</dimen>
+    <dimen name="dp_939">939dp</dimen>
+    <dimen name="dp_94">94dp</dimen>
+    <dimen name="dp_940">940dp</dimen>
+    <dimen name="dp_941">941dp</dimen>
+    <dimen name="dp_942">942dp</dimen>
+    <dimen name="dp_943">943dp</dimen>
+    <dimen name="dp_944">944dp</dimen>
+    <dimen name="dp_945">945dp</dimen>
+    <dimen name="dp_946">946dp</dimen>
+    <dimen name="dp_947">947dp</dimen>
+    <dimen name="dp_948">948dp</dimen>
+    <dimen name="dp_949">949dp</dimen>
+    <dimen name="dp_95">95dp</dimen>
+    <dimen name="dp_950">950dp</dimen>
+    <dimen name="dp_951">951dp</dimen>
+    <dimen name="dp_952">952dp</dimen>
+    <dimen name="dp_953">953dp</dimen>
+    <dimen name="dp_954">954dp</dimen>
+    <dimen name="dp_955">955dp</dimen>
+    <dimen name="dp_956">956dp</dimen>
+    <dimen name="dp_957">957dp</dimen>
+    <dimen name="dp_958">958dp</dimen>
+    <dimen name="dp_959">959dp</dimen>
+    <dimen name="dp_96">96dp</dimen>
+    <dimen name="dp_960">960dp</dimen>
+    <dimen name="dp_961">961dp</dimen>
+    <dimen name="dp_962">962dp</dimen>
+    <dimen name="dp_963">963dp</dimen>
+    <dimen name="dp_964">964dp</dimen>
+    <dimen name="dp_965">965dp</dimen>
+    <dimen name="dp_966">966dp</dimen>
+    <dimen name="dp_967">967dp</dimen>
+    <dimen name="dp_968">968dp</dimen>
+    <dimen name="dp_969">969dp</dimen>
+    <dimen name="dp_97">97dp</dimen>
+    <dimen name="dp_970">970dp</dimen>
+    <dimen name="dp_971">971dp</dimen>
+    <dimen name="dp_972">972dp</dimen>
+    <dimen name="dp_973">973dp</dimen>
+    <dimen name="dp_974">974dp</dimen>
+    <dimen name="dp_975">975dp</dimen>
+    <dimen name="dp_976">976dp</dimen>
+    <dimen name="dp_977">977dp</dimen>
+    <dimen name="dp_978">978dp</dimen>
+    <dimen name="dp_979">979dp</dimen>
+    <dimen name="dp_98">98dp</dimen>
+    <dimen name="dp_980">980dp</dimen>
+    <dimen name="dp_981">981dp</dimen>
+    <dimen name="dp_982">982dp</dimen>
+    <dimen name="dp_983">983dp</dimen>
+    <dimen name="dp_984">988dp</dimen>
+    <dimen name="dp_985">985dp</dimen>
+    <dimen name="dp_986">986dp</dimen>
+    <dimen name="dp_987">987dp</dimen>
+    <dimen name="dp_988">988dp</dimen>
+    <dimen name="dp_989">989dp</dimen>
+    <dimen name="dp_99">99dp</dimen>
+    <dimen name="dp_990">990dp</dimen>
+    <dimen name="dp_991">991dp</dimen>
+    <dimen name="dp_992">992dp</dimen>
+    <dimen name="dp_993">993dp</dimen>
+    <dimen name="dp_994">994dp</dimen>
+    <dimen name="dp_995">995dp</dimen>
+    <dimen name="dp_996">996dp</dimen>
+    <dimen name="dp_997">997dp</dimen>
+    <dimen name="dp_998">998dp</dimen>
+    <dimen name="dp_999">999dp</dimen>
+    <dimen name="heart_anim_bezier_x_rand">40.0dp</dimen>
+    <dimen name="heart_anim_init_x">50.0dp</dimen>
+    <dimen name="heart_anim_init_y">25.0dp</dimen>
+    <dimen name="heart_anim_length">100.0dp</dimen>
+    <dimen name="heart_anim_length_rand">150.0dp</dimen>
+    <dimen name="heart_anim_x_point_factor">30.0dp</dimen>
+    <dimen name="heart_size_height">27.3dp</dimen>
+    <dimen name="heart_size_width">32.5dp</dimen>
+    <dimen name="large_textSize_sidebar">32sp</dimen>
+    <dimen name="radius_sidebar">20dp</dimen>
+    <dimen name="rxauto_imageview_Right">-300dp</dimen>
+    <dimen name="rxauto_imageview_left">-100dp</dimen>
+    <dimen name="sp_1">1sp</dimen>
+    <dimen name="sp_10">10sp</dimen>
+    <dimen name="sp_100">100sp</dimen>
+    <dimen name="sp_11">11sp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_13">13sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_15">15sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_17">17sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="sp_19">19sp</dimen>
+    <dimen name="sp_2">2sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="sp_21">21sp</dimen>
+    <dimen name="sp_22">22sp</dimen>
+    <dimen name="sp_23">23sp</dimen>
+    <dimen name="sp_24">24sp</dimen>
+    <dimen name="sp_25">25sp</dimen>
+    <dimen name="sp_26">26sp</dimen>
+    <dimen name="sp_27">27sp</dimen>
+    <dimen name="sp_28">28sp</dimen>
+    <dimen name="sp_29">29sp</dimen>
+    <dimen name="sp_3">3sp</dimen>
+    <dimen name="sp_30">30sp</dimen>
+    <dimen name="sp_31">31sp</dimen>
+    <dimen name="sp_32">32sp</dimen>
+    <dimen name="sp_33">33sp</dimen>
+    <dimen name="sp_34">34sp</dimen>
+    <dimen name="sp_35">35sp</dimen>
+    <dimen name="sp_36">36sp</dimen>
+    <dimen name="sp_37">37sp</dimen>
+    <dimen name="sp_38">38sp</dimen>
+    <dimen name="sp_39">39sp</dimen>
+    <dimen name="sp_4">4sp</dimen>
+    <dimen name="sp_40">40sp</dimen>
+    <dimen name="sp_41">41sp</dimen>
+    <dimen name="sp_42">42sp</dimen>
+    <dimen name="sp_43">43sp</dimen>
+    <dimen name="sp_44">44sp</dimen>
+    <dimen name="sp_45">45sp</dimen>
+    <dimen name="sp_46">46sp</dimen>
+    <dimen name="sp_47">47sp</dimen>
+    <dimen name="sp_48">48sp</dimen>
+    <dimen name="sp_49">49sp</dimen>
+    <dimen name="sp_5">5sp</dimen>
+    <dimen name="sp_50">50sp</dimen>
+    <dimen name="sp_51">51sp</dimen>
+    <dimen name="sp_52">52sp</dimen>
+    <dimen name="sp_53">53sp</dimen>
+    <dimen name="sp_54">54sp</dimen>
+    <dimen name="sp_55">55sp</dimen>
+    <dimen name="sp_56">56sp</dimen>
+    <dimen name="sp_57">57sp</dimen>
+    <dimen name="sp_58">58sp</dimen>
+    <dimen name="sp_59">59sp</dimen>
+    <dimen name="sp_6">6sp</dimen>
+    <dimen name="sp_60">60sp</dimen>
+    <dimen name="sp_61">61sp</dimen>
+    <dimen name="sp_62">62sp</dimen>
+    <dimen name="sp_63">63sp</dimen>
+    <dimen name="sp_64">64sp</dimen>
+    <dimen name="sp_65">65sp</dimen>
+    <dimen name="sp_66">66sp</dimen>
+    <dimen name="sp_67">67sp</dimen>
+    <dimen name="sp_68">68sp</dimen>
+    <dimen name="sp_69">69sp</dimen>
+    <dimen name="sp_7">7sp</dimen>
+    <dimen name="sp_70">70sp</dimen>
+    <dimen name="sp_71">71sp</dimen>
+    <dimen name="sp_72">72sp</dimen>
+    <dimen name="sp_73">73sp</dimen>
+    <dimen name="sp_74">74sp</dimen>
+    <dimen name="sp_75">75sp</dimen>
+    <dimen name="sp_76">76sp</dimen>
+    <dimen name="sp_77">77sp</dimen>
+    <dimen name="sp_78">78sp</dimen>
+    <dimen name="sp_79">79sp</dimen>
+    <dimen name="sp_8">8sp</dimen>
+    <dimen name="sp_80">80sp</dimen>
+    <dimen name="sp_81">81sp</dimen>
+    <dimen name="sp_82">82sp</dimen>
+    <dimen name="sp_83">83sp</dimen>
+    <dimen name="sp_84">88sp</dimen>
+    <dimen name="sp_85">85sp</dimen>
+    <dimen name="sp_86">86sp</dimen>
+    <dimen name="sp_87">87sp</dimen>
+    <dimen name="sp_88">88sp</dimen>
+    <dimen name="sp_89">89sp</dimen>
+    <dimen name="sp_9">9sp</dimen>
+    <dimen name="sp_90">90sp</dimen>
+    <dimen name="sp_91">91sp</dimen>
+    <dimen name="sp_92">92sp</dimen>
+    <dimen name="sp_93">93sp</dimen>
+    <dimen name="sp_94">94sp</dimen>
+    <dimen name="sp_95">95sp</dimen>
+    <dimen name="sp_96">96sp</dimen>
+    <dimen name="sp_97">97sp</dimen>
+    <dimen name="sp_98">98sp</dimen>
+    <dimen name="sp_99">99sp</dimen>
+    <dimen name="stpi_default_bottom_indicator_height">3dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_margin_top">10dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_width">50dp</dimen>
+    <dimen name="stpi_default_circle_radius">10dp</dimen>
+    <dimen name="stpi_default_circle_stroke_width">4dp</dimen>
+    <dimen name="stpi_default_indicator_radius">4dp</dimen>
+    <dimen name="stpi_default_label_margin_top">2dp</dimen>
+    <dimen name="stpi_default_label_size">12sp</dimen>
+    <dimen name="stpi_default_line_margin">5dp</dimen>
+    <dimen name="stpi_default_line_stroke_width">2dp</dimen>
+    <dimen name="stpi_default_text_size">12sp</dimen>
+    <dimen name="stpi_done_icon_size">18dp</dimen>
+    <dimen name="stpi_two_dp">2dp</dimen>
+    <dimen name="textSize_sidebar">10sp</dimen>
+    <dimen name="textSize_sidebar_choose">12sp</dimen>
+    <dimen name="textSize_sidebar_padding">20sp</dimen>
+    <dimen name="triangle_cornerflag_width">16dp</dimen>
+    <integer name="anim_duration">3000</integer>
+    <integer name="heart_anim_bezier_factor">6</integer>
+    <string name="app_DUKPT">DUKPT</string>
+    <string name="app_cancel">Cancel</string>
+    <string name="app_confirm">Confirm</string>
+    <string name="app_exit">is Exit ?</string>
+    <string name="app_m_s">M/S</string>
+    <string name="app_name">myDialog</string>
+    <string name="p_enter">Please enter the ...</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="PushUpInDialogThem" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@color/TransColor</item>
+        <item name="android:windowBackground">@color/TransColor</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="SpinKitView">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+    <style name="SpinKitView.ChasingDots">
+        <item name="SpinKit_Style">ChasingDots</item>
+    </style>
+    <style name="SpinKitView.Circle">
+        <item name="SpinKit_Style">Circle</item>
+    </style>
+    <style name="SpinKitView.CubeGrid">
+        <item name="SpinKit_Style">CubeGrid</item>
+    </style>
+    <style name="SpinKitView.DoubleBounce">
+        <item name="SpinKit_Style">DoubleBounce</item>
+    </style>
+    <style name="SpinKitView.FadingCircle">
+        <item name="SpinKit_Style">FadingCircle</item>
+    </style>
+    <style name="SpinKitView.FoldingCube">
+        <item name="SpinKit_Style">FoldingCube</item>
+    </style>
+    <style name="SpinKitView.Large">
+        <item name="android:minWidth">76dip</item>
+        <item name="android:maxWidth">76dip</item>
+        <item name="android:minHeight">76dip</item>
+        <item name="android:maxHeight">76dip</item>
+    </style>
+    <style name="SpinKitView.Large.ChasingDots">
+        <item name="SpinKit_Style">ChasingDots</item>
+    </style>
+    <style name="SpinKitView.Large.Circle">
+        <item name="SpinKit_Style">Circle</item>
+    </style>
+    <style name="SpinKitView.Large.CubeGrid">
+        <item name="SpinKit_Style">CubeGrid</item>
+    </style>
+    <style name="SpinKitView.Large.DoubleBounce">
+        <item name="SpinKit_Style">DoubleBounce</item>
+    </style>
+    <style name="SpinKitView.Large.FadingCircle">
+        <item name="SpinKit_Style">FadingCircle</item>
+    </style>
+    <style name="SpinKitView.Large.FoldingCube">
+        <item name="SpinKit_Style">FoldingCube</item>
+    </style>
+    <style name="SpinKitView.Large.MultiplePulse">
+        <item name="SpinKit_Style">MultiplePulse</item>
+    </style>
+    <style name="SpinKitView.Large.MultiplePulseRing">
+        <item name="SpinKit_Style">MultiplePulseRing</item>
+    </style>
+    <style name="SpinKitView.Large.Pulse">
+        <item name="SpinKit_Style">Pulse</item>
+    </style>
+    <style name="SpinKitView.Large.PulseRing">
+        <item name="SpinKit_Style">PulseRing</item>
+    </style>
+    <style name="SpinKitView.Large.RotatingCircle">
+        <item name="SpinKit_Style">RotatingCircle</item>
+    </style>
+    <style name="SpinKitView.Large.RotatingPlane">
+        <item name="SpinKit_Style">RotatingPlane</item>
+    </style>
+    <style name="SpinKitView.Large.ThreeBounce">
+        <item name="SpinKit_Style">ThreeBounce</item>
+    </style>
+    <style name="SpinKitView.Large.WanderingCubes">
+        <item name="SpinKit_Style">WanderingCubes</item>
+    </style>
+    <style name="SpinKitView.Large.Wave">
+        <item name="SpinKit_Style">Wave</item>
+    </style>
+    <style name="SpinKitView.MultiplePulse">
+        <item name="SpinKit_Style">MultiplePulse</item>
+    </style>
+    <style name="SpinKitView.MultiplePulseRing">
+        <item name="SpinKit_Style">MultiplePulseRing</item>
+    </style>
+    <style name="SpinKitView.Pulse">
+        <item name="SpinKit_Style">Pulse</item>
+    </style>
+    <style name="SpinKitView.PulseRing">
+        <item name="SpinKit_Style">PulseRing</item>
+    </style>
+    <style name="SpinKitView.RotatingCircle">
+        <item name="SpinKit_Style">RotatingCircle</item>
+    </style>
+    <style name="SpinKitView.RotatingPlane">
+        <item name="SpinKit_Style">RotatingPlane</item>
+    </style>
+    <style name="SpinKitView.Small">
+        <item name="android:minWidth">16dip</item>
+        <item name="android:maxWidth">16dip</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+    <style name="SpinKitView.Small.ChasingDots">
+        <item name="SpinKit_Style">ChasingDots</item>
+    </style>
+    <style name="SpinKitView.Small.Circle">
+        <item name="SpinKit_Style">Circle</item>
+    </style>
+    <style name="SpinKitView.Small.CubeGrid">
+        <item name="SpinKit_Style">CubeGrid</item>
+    </style>
+    <style name="SpinKitView.Small.DoubleBounce">
+        <item name="SpinKit_Style">DoubleBounce</item>
+    </style>
+    <style name="SpinKitView.Small.FadingCircle">
+        <item name="SpinKit_Style">FadingCircle</item>
+    </style>
+    <style name="SpinKitView.Small.FoldingCube">
+        <item name="SpinKit_Style">FoldingCube</item>
+    </style>
+    <style name="SpinKitView.Small.MultiplePulse">
+        <item name="SpinKit_Style">MultiplePulse</item>
+    </style>
+    <style name="SpinKitView.Small.MultiplePulseRing">
+        <item name="SpinKit_Style">MultiplePulseRing</item>
+    </style>
+    <style name="SpinKitView.Small.Pulse">
+        <item name="SpinKit_Style">Pulse</item>
+    </style>
+    <style name="SpinKitView.Small.PulseRing">
+        <item name="SpinKit_Style">PulseRing</item>
+    </style>
+    <style name="SpinKitView.Small.RotatingCircle">
+        <item name="SpinKit_Style">RotatingCircle</item>
+    </style>
+    <style name="SpinKitView.Small.RotatingPlane">
+        <item name="SpinKit_Style">RotatingPlane</item>
+    </style>
+    <style name="SpinKitView.Small.ThreeBounce">
+        <item name="SpinKit_Style">ThreeBounce</item>
+    </style>
+    <style name="SpinKitView.Small.WanderingCubes">
+        <item name="SpinKit_Style">WanderingCubes</item>
+    </style>
+    <style name="SpinKitView.Small.Wave">
+        <item name="SpinKit_Style">Wave</item>
+    </style>
+    <style name="SpinKitView.ThreeBounce">
+        <item name="SpinKit_Style">ThreeBounce</item>
+    </style>
+    <style name="SpinKitView.WanderingCubes">
+        <item name="SpinKit_Style">WanderingCubes</item>
+    </style>
+    <style name="SpinKitView.Wave">
+        <item name="SpinKit_Style">Wave</item>
+    </style>
+    <style name="TickerTextAppearance">
+        <item name="android:textColor">@color/F0</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+    <style name="custom_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/shape_bg_white</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="tab_menu_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">3dp</item>
+
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="tran_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    <declare-styleable name="AbstractWheelView">
+        <attr format="integer" name="visibleItems"/>
+        <attr format="boolean" name="isAllVisible"/>
+        <attr format="integer" name="itemOffsetPercent"/>
+        <attr format="dimension" name="itemsPadding"/>
+        <attr format="integer" name="selectionDividerDimmedAlpha"/>
+        <attr format="integer" name="selectionDividerActiveAlpha"/>
+        <attr format="reference" name="selectionDivider"/>
+        <attr format="integer" name="itemsDimmedAlpha"/>
+        <attr format="boolean" name="isCyclic"/>
+    </declare-styleable>
+    <declare-styleable name="ArcProgress">
+        <attr format="color" name="roundColor"/>
+        <attr format="color" name="roundProgressColor"/>
+        <attr format="dimension" name="roundWidth"/>
+        <attr format="color" name="textColor"/>
+        <attr format="dimension" name="textSize1"/>
+        <attr format="integer" name="max"/>
+        <attr format="boolean" name="textIsDisplayable"/>
+        <attr name="style_ui">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="AutoImageView">
+        <attr format="reference" name="ImageSrc"/>
+    </declare-styleable>
+    <declare-styleable name="BaseRoundProgress">
+        <attr format="boolean" name="rcReverse"/>
+        <attr format="float" name="rcProgress"/>
+        <attr format="float" name="rcMax"/>
+        <attr format="float" name="rcSecondaryProgress"/>
+        <attr format="dimension" name="rcBackgroundPadding"/>
+        <attr format="dimension" name="rcRadius"/>
+        <attr format="color" name="rcProgressColor"/>
+        <attr format="color" name="rcSecondaryProgressColor"/>
+        <attr format="color" name="rcBackgroundColor"/>
+    </declare-styleable>
+    <declare-styleable name="CardStackView">
+        <attr format="dimension" name="stackOverlapGaps"/>
+        <attr format="dimension" name="stackOverlapGapsCollapse"/>
+        <attr format="dimension" name="stackHeaderHeight"/>
+        <attr format="integer" name="stackDuration"/>
+        <attr format="integer" name="stackNumBottomShow"/>
+        <attr name="stackAnimationType">
+            <flag name="allDown" value="0"/>
+            <flag name="upDown" value="1"/>
+            <flag name="upDownStack" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CobwebView">
+
+        <attr format="color" name="spiderColor"/>
+        <attr format="color" name="spiderRadiusColor"/>
+        <attr format="color" name="spiderLevelColor"/>
+        <attr format="boolean" name="spiderLevelStroke"/>
+        <attr format="boolean" name="spiderRotate"/>
+        <attr format="float" name="spiderLevelStrokeWidth"/>
+        <attr format="integer" name="spiderMaxLevel"/>
+        <attr format="dimension" name="spiderNameSize"/>
+
+    </declare-styleable>
+    <declare-styleable name="ColorPickerPreference">
+        <attr format="boolean" name="alphaSlider"/>
+        <attr format="boolean" name="lightnessSlider"/>
+        <attr format="integer" name="density"/>
+        <attr format="integer" name="initialColor"/>
+        <attr format="enum" name="wheelType">
+            <enum name="FLOWER" value="0"/>
+            <enum name="CIRCLE" value="1"/>
+        </attr>
+        <attr format="reference" name="lightnessSliderView"/>
+        <attr format="reference" name="alphaSliderView"/>
+        <attr format="integer" name="pickerColorEditTextColor"/>
+        <attr format="reference|string" name="pickerTitle"/>
+        <attr format="reference|string" name="pickerButtonOk"/>
+        <attr format="reference|string" name="pickerButtonCancel"/>
+    </declare-styleable>
+    <declare-styleable name="FlikerProgressBar">
+        <attr format="dimension" name="textSize"/>
+        <attr format="color" name="loadingColor"/>
+        <attr format="color" name="stopColor"/>
+        <attr format="color" name="finishColor"/>
+        <attr format="dimension" name="radius"/>
+        <attr format="dimension" name="borderWidth"/>
+    </declare-styleable>
+    <declare-styleable name="HeartLayout">
+        <attr format="dimension" name="initX"/>
+        <attr format="dimension" name="initY"/>
+        <attr format="dimension" name="xRand"/>
+        <attr format="dimension" name="animLengthRand"/>
+        <attr format="dimension" name="xPointFactor"/>
+        <attr format="dimension" name="animLength"/>
+        <attr format="dimension" name="heart_width"/>
+        <attr format="dimension" name="heart_height"/>
+        <attr format="integer" name="bezierFactor"/>
+        <attr format="integer" name="anim_duration"/>
+    </declare-styleable>
+    <declare-styleable name="IconRoundProgress">
+        <attr format="reference" name="rcIconSrc"/>
+        <attr format="dimension" name="rcIconSize"/>
+        <attr format="dimension" name="rcIconWidth"/>
+        <attr format="dimension" name="rcIconHeight"/>
+        <attr format="dimension" name="rcIconPadding"/>
+        <attr format="dimension" name="rcIconPaddingLeft"/>
+        <attr format="dimension" name="rcIconPaddingRight"/>
+        <attr format="dimension" name="rcIconPaddingTop"/>
+        <attr format="dimension" name="rcIconPaddingBottom"/>
+        <attr format="color" name="rcIconBackgroundColor"/>
+    </declare-styleable>
+    <declare-styleable name="MsgView">
+        <!-- 圆角矩形背景色 -->
+        <attr format="color" name="mv_backgroundColor"/>
+        <!-- 圆角弧度,单位dp-->
+        <attr format="dimension" name="mv_cornerRadius"/>
+        <!-- 圆角弧度,单位dp-->
+        <attr format="dimension" name="mv_strokeWidth"/>
+        <!-- 圆角边框颜色-->
+        <attr format="color" name="mv_strokeColor"/>
+        <!-- 圆角弧度是高度一半-->
+        <attr format="boolean" name="mv_isRadiusHalfHeight"/>
+        <!-- 圆角矩形宽高相等,取较宽高中大值-->
+        <attr format="boolean" name="mv_isWidthHeightEqual"/>
+    </declare-styleable>
+    <declare-styleable name="NetSpeedView">
+        <attr format="color" name="TextColor"/>
+        <attr format="dimension" name="TextSize"/>
+        <attr format="boolean" name="isMulti"/>
+    </declare-styleable>
+    <declare-styleable name="PorterImageView">
+        <attr format="integer|reference" name="siShape"/>
+    </declare-styleable>
+    <declare-styleable name="RotateBar">
+        <attr format="string" name="ratingCenterTitle"/>
+        <attr format="dimension" name="centerTitleSize"/>
+        <attr format="integer" name="ratingMax"/>
+        <attr format="color" name="ratingUnratedColor"/>
+        <attr format="color" name="ratingRatedColor"/>
+        <attr format="color" name="ratingTitleColor"/>
+        <attr format="color" name="ratingOutlineColor"/>
+        <attr format="color" name="ratingDefaultColor"/>
+        <attr format="boolean" name="ratingTitleVisible"/>
+        <attr format="color" name="ratingCenterColor"/>
+    </declare-styleable>
+    <declare-styleable name="ScaleImageView">
+        <attr format="reference" name="src"/>
+        <attr format="string" name="assetName"/>
+        <attr format="boolean" name="panEnabled"/>
+        <attr format="boolean" name="zoomEnabled"/>
+        <attr format="boolean" name="quickScaleEnabled"/>
+        <attr format="color" name="tileBackgroundColor"/>
+    </declare-styleable>
+    <declare-styleable name="SeatMovie">
+        <attr format="reference" name="seat_checked"/>
+        <attr format="reference" name="seat_sold"/>
+        <attr format="reference" name="seat_available"/>
+        <attr format="color" name="overview_checked"/>
+        <attr format="color" name="overview_sold"/>
+        <attr format="color" name="txt_color"/>
+    </declare-styleable>
+    <declare-styleable name="SeekBar">
+        <attr format="float" name="maxProgress"/>
+        <attr format="float" name="minProgress"/>
+        <attr format="float" name="reserve"/>
+        <attr format="integer" name="cells"/>
+        <attr format="boolean" name="hideProgressHint"/>
+        <attr format="boolean" name="isHintHolder"/>
+        <attr format="color" name="lineColorSelected"/>
+        <attr format="color" name="lineColorEdge"/>
+        <attr format="color" name="thumbPrimaryColor"/>
+        <attr format="color" name="thumbSecondaryColor"/>
+        <attr format="reference" name="markTextArray"/>
+        <attr format="reference" name="seekBarResId"/>
+        <!-- must use 9 path ！！！-->
+        <attr format="reference" name="progressHintResId"/>
+        <attr format="dimension" name="textPadding"/>
+        <attr format="dimension" name="textSize2"/>
+        <attr format="dimension" name="hintBGHeight"/>
+        <attr format="dimension" name="hintBGWith"/>
+        <attr format="dimension" name="hintBGPadding"/>
+        <attr format="dimension" name="seekBarHeight"/>
+        <attr format="dimension" name="thumbSize"/>
+        <attr format="enum" name="cellMode">
+            <enum name="number" value="0"/>
+            <enum name="other" value="1"/>
+        </attr>
+        <attr format="enum" name="seekBarMode">
+            <enum name="single" value="1"/>
+            <enum name="range" value="2"/>
+        </attr>
+
+    </declare-styleable>
+    <declare-styleable name="ShapeLoadingView">
+        <attr format="string" name="loadingText"/>
+        <attr format="reference" name="loadingTextAppearance"/>
+    </declare-styleable>
+    <declare-styleable name="ShineButton">
+        <attr format="color" name="btn_color"/>
+        <attr format="color" name="btn_fill_color"/>
+        <attr format="integer" name="shine_count"/>
+        <attr format="float" name="shine_turn_angle"/>
+        <attr format="float" name="small_shine_offset_angle"/>
+        <attr format="boolean" name="enable_flashing"/>
+        <attr format="boolean" name="allow_random_color"/>
+        <attr format="color" name="small_shine_color"/>
+        <attr format="color" name="big_shine_color"/>
+        <attr format="integer" name="shine_animation_duration"/>
+        <attr format="integer" name="click_animation_duration"/>
+        <attr format="float" name="shine_distance_multiple"/>
+        <attr format="dimension" name="shine_size"/>
+    </declare-styleable>
+    <declare-styleable name="ShoppingView">
+        <attr format="color" name="sv_bg_color"/>
+        <attr format="string" name="sv_text"/>
+        <attr format="dimension" name="sv_text_size"/>
+        <attr format="integer" name="sv_duration"/>
+    </declare-styleable>
+    <declare-styleable name="SpinKitView">
+        <attr name="SpinKit_Style">
+            <enum name="RotatingPlane" value="0"/>
+            <enum name="DoubleBounce" value="1"/>
+            <enum name="Wave" value="2"/>
+            <enum name="WanderingCubes" value="3"/>
+            <enum name="Pulse" value="4"/>
+            <enum name="ChasingDots" value="5"/>
+            <enum name="ThreeBounce" value="6"/>
+            <enum name="Circle" value="7"/>
+            <enum name="CubeGrid" value="8"/>
+            <enum name="FadingCircle" value="9"/>
+            <enum name="FoldingCube" value="10"/>
+            <enum name="RotatingCircle" value="11"/>
+            <enum name="MultiplePulse" value="12"/>
+            <enum name="PulseRing" value="13"/>
+            <enum name="MultiplePulseRing" value="14"/>
+        </attr>
+        <attr format="color" name="SpinKit_Color"/>
+    </declare-styleable>
+    <declare-styleable name="SwipeCaptcha">
+        <attr format="dimension" name="captchaWidth"/>
+        <attr format="dimension" name="captchaHeight"/>
+        <attr format="dimension" name="matchDeviation"/>
+    </declare-styleable>
+    <declare-styleable name="TBlurView">
+        <attr format="reference" name="blurSrc"/>
+        <!-- 设置显示器动画时间-->
+        <attr format="integer" name="blurDelayTime"/>
+        <attr format="integer" name="blurRadius"/>
+    </declare-styleable>
+    <declare-styleable name="TCrossView">
+        <attr format="color" name="lineColor"/>
+    </declare-styleable>
+    <declare-styleable name="TGlideTabLayout">
+        <!-- indicator -->
+        <attr name="indicator_color"/>
+        <attr name="indicator_height"/>
+        <attr name="indicator_width"/>
+        <attr name="indicator_margin_left"/>
+        <attr name="indicator_margin_top"/>
+        <attr name="indicator_margin_right"/>
+        <attr name="indicator_margin_bottom"/>
+        <attr name="indicator_corner_radius"/>
+        <attr name="indicator_gravity"/>
+        <attr name="indicator_style"/>
+        <attr name="indicator_width_equal_title"/>
+
+        <!-- underline -->
+        <attr name="underline_color"/>
+        <attr name="underline_height"/>
+        <attr name="underline_gravity"/>
+
+        <!-- divider -->
+        <attr name="divider_color"/>
+        <attr name="divider_width"/>
+        <attr name="divider_padding"/>
+
+        <!-- tab -->
+        <attr name="tab_padding"/>
+        <attr name="tab_space_equal"/>
+        <attr name="tab_width"/>
+
+        <!-- title -->
+        <attr name="titlesize"/>
+        <attr name="textSelectColor"/>
+        <attr name="textUnSelectColor"/>
+        <attr name="textBold"/>
+        <attr name="textAllCaps"/>
+
+    </declare-styleable>
+    <declare-styleable name="TIndicator">
+        <attr format="integer" name="dotCount"/>
+        <attr format="integer" name="fadingDotCount"/>
+        <attr format="dimension" name="dotRadius"/>
+        <attr format="dimension" name="selectedDotRadius"/>
+        <attr format="color" name="dotColor"/>
+        <attr format="color" name="selectedDotColor"/>
+        <attr format="dimension" name="dotSeparation"/>
+        <attr format="boolean" name="supportRTL"/>
+        <attr format="boolean" name="verticalSupport"/>
+    </declare-styleable>
+    <declare-styleable name="TLoadingView">
+        <attr format="float" name="width_weight"/>
+        <attr format="float" name="height_weight"/>
+        <attr format="boolean" name="gradient"/>
+        <attr format="integer" name="corners"/>
+        <attr format="color" name="TLoadingColor"/>
+    </declare-styleable>
+    <declare-styleable name="TSectionTabLayout">
+        <!-- indicator -->
+        <attr name="indicator_color"/>
+        <attr name="indicator_height"/>
+        <attr name="indicator_margin_left"/>
+        <attr name="indicator_margin_top"/>
+        <attr name="indicator_margin_right"/>
+        <attr name="indicator_margin_bottom"/>
+        <attr name="indicator_corner_radius"/>
+        <attr name="indicator_anim_enable"/>
+        <attr name="indicator_anim_duration"/>
+        <attr name="indicator_bounce_enable"/>
+
+        <!-- divider -->
+        <attr name="divider_color"/>
+        <attr name="divider_width"/>
+        <attr name="divider_padding"/>
+
+        <!-- tab -->
+        <attr name="tab_padding"/>
+        <attr name="tab_space_equal"/>
+        <attr name="tab_width"/>
+
+        <!-- title -->
+        <attr name="titlesize"/>
+        <attr name="textSelectColor"/>
+        <attr name="textUnSelectColor"/>
+        <attr name="textBold"/>
+        <attr name="textAllCaps"/>
+
+        <attr format="color" name="bar_color"/>
+        <attr format="color" name="bar_stroke_color"/>
+        <attr format="dimension" name="bar_stroke_width"/>
+
+    </declare-styleable>
+    <declare-styleable name="TStepperIndicator" ns1:ignore="ResourceName">
+        <attr format="integer" name="stpi_stepCount"/>
+        <attr format="integer" name="stpi_animDuration"/>
+
+        <attr format="color" name="stpi_circleColor"/>
+        <attr format="dimension" name="stpi_circleRadius"/>
+        <attr format="dimension" name="stpi_circleStrokeWidth"/>
+
+        <attr format="color" name="stpi_indicatorColor"/>
+        <attr format="dimension" name="stpi_indicatorRadius"/>
+
+        <attr format="color" name="stpi_lineColor"/>
+        <attr format="color" name="stpi_lineDoneColor"/>
+        <attr format="dimension" name="stpi_lineStrokeWidth"/>
+        <attr format="dimension" name="stpi_lineMargin"/>
+
+        <attr format="boolean" name="stpi_showDoneIcon"/>
+        <attr format="boolean" name="stpi_showStepNumberInstead"/>
+        <attr format="reference" name="stpi_doneIconDrawable"/>
+
+        <attr format="boolean" name="stpi_useBottomIndicator"/>
+        <attr format="boolean" name="stpi_useBottomIndicatorWithStepColors"/>
+        <attr format="dimension" name="stpi_bottomIndicatorHeight"/>
+        <attr format="dimension" name="stpi_bottomIndicatorWidth"/>
+        <attr format="dimension" name="stpi_bottomIndicatorMarginTop"/>
+
+        <attr format="reference" name="stpi_stepsCircleColors"/>
+        <attr format="reference" name="stpi_stepsIndicatorColors"/>
+
+        <attr format="reference" name="stpi_labels"/>
+        <attr format="boolean" name="stpi_showLabels"/>
+        <attr format="dimension" name="stpi_labelMarginTop"/>
+        <attr format="dimension" name="stpi_labelSize"/>
+        <attr format="color" name="stpi_labelColor"/>
+    </declare-styleable>
+    <declare-styleable name="TTabLayout">
+        <!-- indicator -->
+        <attr name="indicator_color"/>
+        <attr name="indicator_height"/>
+        <attr name="indicator_width"/>
+        <attr name="indicator_margin_left"/>
+        <attr name="indicator_margin_top"/>
+        <attr name="indicator_margin_right"/>
+        <attr name="indicator_margin_bottom"/>
+        <attr name="indicator_corner_radius"/>
+        <attr name="indicator_gravity"/>
+        <attr name="indicator_style"/>
+        <attr name="indicator_anim_enable"/>
+        <attr name="indicator_anim_duration"/>
+        <attr name="indicator_bounce_enable"/>
+
+        <!-- underline -->
+        <attr name="underline_color"/>
+        <attr name="underline_height"/>
+        <attr name="underline_gravity"/>
+
+        <!-- divider -->
+        <attr name="divider_color"/>
+        <attr name="divider_width"/>
+        <attr name="divider_padding"/>
+
+        <!-- tab -->
+        <attr name="tab_padding"/>
+        <attr name="tab_space_equal"/>
+        <attr name="tab_width"/>
+
+        <!-- title -->
+        <attr name="titlesize"/>
+        <attr name="textSelectColor"/>
+        <attr name="textUnSelectColor"/>
+        <attr name="textBold"/>
+        <attr name="textAllCaps"/>
+
+        <!-- icon -->
+        <!-- 设置icon宽度 -->
+        <attr format="dimension" name="iconWidth"/>
+        <!-- 设置icon高度 -->
+        <attr format="dimension" name="iconHeight"/>
+        <!-- 设置icon是否可见 -->
+        <attr format="boolean" name="iconVisible"/>
+        <!-- 设置icon显示位置,对应Gravity中常量值 -->
+        <attr format="enum" name="icon_gravity">
+            <enum name="LEFT" value="3"/>
+            <enum name="TOP" value="48"/>
+            <enum name="RIGHT" value="5"/>
+            <enum name="BOTTOM" value="80"/>
+        </attr>
+        <!-- 设置icon与文字间距 -->
+        <attr format="dimension" name="iconMargin"/>
+
+    </declare-styleable>
+    <declare-styleable name="TVideoTimeline">
+        <!--时间尺中间刻度条颜色-->
+        <attr format="color" name="middleCursorColor"/>
+        <!--时间刻度文字颜色-->
+        <attr format="color" name="recordTextColor"/>
+        <!--含有录像背景颜色-->
+        <attr format="color" name="recordBackgroundColor"/>
+        <!--含有时间尺边框及刻度条颜色-->
+        <attr format="color" name="timebarColor"/>
+
+
+    </declare-styleable>
+    <declare-styleable name="TextRoundProgress">
+        <attr format="color" name="rcTextProgressColor"/>
+        <attr format="dimension" name="rcTextProgressSize"/>
+        <attr format="dimension" name="rcTextProgressMargin"/>
+        <attr format="string" name="rcTextProgress"/>
+    </declare-styleable>
+    <declare-styleable name="TimeRulerView">
+        <attr format="color" name="linesColor"/>
+    </declare-styleable>
+    <declare-styleable name="Title">
+        <attr format="string" name="title"/>
+        <attr format="color" name="titleColor"/>
+        <attr format="dimension" name="titleSize"/>
+        <attr format="boolean" name="titleVisibility"/>
+
+        <attr format="string" name="leftText"/>
+        <attr format="color" name="leftTextColor"/>
+        <attr format="dimension" name="leftTextSize"/>
+        <attr format="boolean" name="leftTextVisibility"/>
+
+        <attr format="string" name="rightText"/>
+        <attr format="color" name="rightTextColor"/>
+        <attr format="dimension" name="rightTextSize"/>
+        <attr format="boolean" name="rightTextVisibility"/>
+
+        <attr format="reference" name="leftIcon"/>
+        <attr format="boolean" name="leftIconVisibility"/>
+
+        <attr format="reference" name="rightIcon"/>
+        <attr format="boolean" name="rightIconVisibility"/>
+    </declare-styleable>
+    <declare-styleable name="WaveSideBarView">
+        <attr format="color|reference" name="sidebarTextColor"/>
+        <attr format="color|reference" name="sidebarBackgroundColor"/>
+        <attr format="color|reference" name="sidebarChooseTextColor"/>
+        <attr format="dimension" name="sidebarTextSize"/>
+        <attr format="dimension" name="sidebarLargeTextSize"/>
+        <attr format="dimension" name="sidebarRadius"/>
+        <attr format="dimension" name="sidebarBallRadius"/>
+    </declare-styleable>
+    <declare-styleable name="WaveView">
+        <attr format="color" name="WaveColor"/>
+        <attr format="dimension" name="WaveBorder"/>
+        <attr name="WaveShapeType">
+            <enum name="CIRCLE" value="0"/>
+            <enum name="SQUARE" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="WheelHorizontalView">
+        <attr format="dimension" name="selectionDividerWidth"/>
+    </declare-styleable>
+    <declare-styleable name="WheelVerticalView">
+        <attr format="dimension" name="selectionDividerHeight"/>
+    </declare-styleable>
+    <declare-styleable name="lwvWheelView">
+        <attr format="color|reference" name="lwvHighlightColor"/>
+        <attr format="color|reference" name="lwvMarkColor"/>
+        <attr format="color|reference" name="lwvMarkTextColor"/>
+        <attr format="float" name="lwvIntervalFactor"/>
+        <attr format="float" name="lwvMarkRatio"/>
+        <attr format="dimension" name="lwvCursorSize"/>
+        <attr format="dimension" name="lwvMarkTextSize"/>
+        <attr format="dimension" name="lwvCenterMarkTextSize"/>
+        <attr format="string|reference" name="lwvAdditionalCenterMark"/>
+    </declare-styleable>
+    <declare-styleable name="ticker_TickerView">
+        <attr format="reference|integer" name="ticker_animationDuration"/>
+        <attr format="reference|boolean" name="ticker_animateMeasurementChange"/>
+
+        <!-- Custom implementations of common android text attributes -->
+        <attr name="android:gravity" ns1:ignore="ResourceName"/>
+        <attr name="android:textAppearance" ns1:ignore="ResourceName"/>
+        <attr name="android:textColor" ns1:ignore="ResourceName"/>
+        <attr name="android:textSize" ns1:ignore="ResourceName"/>
+    </declare-styleable>
+</resources>

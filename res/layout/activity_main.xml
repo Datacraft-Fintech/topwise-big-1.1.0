@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:layout_marginLeft="@dimen/dp_6"
+    android:layout_marginRight="@dimen/dp_6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:enabled="true"
+            android:text="Init Key"
+            android:onClick="onInitKey"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:enabled="true"
+            android:text="Init CAPK"
+            android:onClick="onInitCAPK"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:enabled="true"
+            android:text="START"
+            android:onClick="start"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:enabled="true"
+            android:text="CLEAR LOG"
+            android:onClick="ClearLog"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+
+    <Button
+        android:enabled="true"
+        android:text="Print"
+        android:onClick="onPrint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_show"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TextView>
+    </ScrollView>
+
+</LinearLayout>

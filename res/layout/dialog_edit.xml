@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="200dp"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Input host and prot"
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="Host:"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_host"
+            android:text="185.170.2.59"
+            android:inputType="text"
+            android:layout_weight="4"
+            android:maxLength="15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="Prot:"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_prot"
+            android:text="800"
+            android:inputType="number"
+            android:maxLength="4"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:textSize="25dp"
+            android:enabled="true"
+            android:id="@+id/tv_cancel"
+            android:gravity="center_horizontal"
+            android:text="CANCEL"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:textSize="25dp"
+            android:enabled="true"
+            android:id="@+id/tv_ok"
+            android:gravity="center_horizontal"
+            android:text="OK"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
